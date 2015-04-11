@@ -19,30 +19,21 @@
 		                        <!-- Text fields  -->
 					  			<div class="row">
 									<div class="form-group">
-						                <label class="col-md-4 control-label">Name: </label>
-						                <div class="col-md-6">
-						              		{{ Form::text('name') }}
+						              		{{ Form::text('name', '',  array('placeholder' => 'Name of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
 											{{ $errors->first('name') }}
-						                </div>
 						            </div>
 					  			</div>
                                 <div class="row">
 									<div class="form-group">
-						                <label class="col-md-4 control-label">Location: </label>
-						                <div class="col-md-6">
-						              		{{ Form::text('location') }}
+						              		{{ Form::text('location', '',  array('placeholder' => 'Location of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1') ) }}
 											{{ $errors->first('location') }}
-						                </div>
 						            </div>
 					  			</div>
 					  			<div class="row">
 									<div class="form-group">
-						                <label class="col-md-4 control-label">Blog: </label>
-						                <div class="col-md-6">
-						              		{{ Form::textarea('description') }}
+						              		{{ Form::textarea('description', '',  array('placeholder' => 'Blog' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
 						              		<br>
 											{{ $errors->first('description') }}
-						                </div>
 						            </div>
 					  			</div>
 								<!-- End of End Items -->
