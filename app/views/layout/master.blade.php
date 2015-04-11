@@ -1,10 +1,12 @@
 <html>
 	<head>
 		<title> WTH2015 </title>
-		{{ HTML::style('bootstrap.css')}}
+		{{ HTML::style('css/bootstrap.min.css')}}
+		{{ HTML::style('css/styles.css')}}
+
 	</head>
 		<body>
-	 	<nav class="navbar navbar-inverse">
+	 	<nav class="navbar navbar-inverse navbar-fixed">
 	        <div class="container-fluid">
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                <ul class="nav navbar-nav navbar-left">
@@ -17,8 +19,10 @@
 	            </div>
 	        </div>
 	    </nav>
-		<div class="col-md-6 col-md-offset-3">
-			@yield('contents')
-		</div>
-	</body>
-</html>
+	@yield('contents')
+
+
+		{{ HTML::script('js/jquery.min.js') }}
+		{{ HTML::script('js/bootstrap.min.js') }}
+		{{ HTML::script('js/script.js') }}
+

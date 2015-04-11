@@ -1,4 +1,4 @@
-body {
+  body {
           padding-top: 50px;
           position: relative;
       }
@@ -181,13 +181,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(../img/1.jpg); 
+  background-image: url(../img/img1.jpg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(../img/etotalaga.jpg);
+  background-image: url(../img/img2.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(../img/3.jpg);
+  background-image: url(../img/img3.jpg);
 }
 
 /********************************/
@@ -258,7 +258,7 @@ Image credits: unsplash.com
     @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
     @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
     body {
-    padding: 60px 0px;
+    padding: 0px 0px;
     background-color: rgb(220, 220, 220);
   }
     
@@ -446,3 +446,12 @@ Image credits: unsplash.com
       padding: 10px 0px 9px;
     }
   }
+
+  .navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    /*opacity: 0;*/
+    }
+
+
+    
