@@ -29,3 +29,9 @@ Route::resource('itinerary', 'ItineraryController',[
 		'show', 'store'
 	]
 ]);
+
+Route::resource('item', 'ItemController',[
+	'only' => [
+		'show', 'store', 'create'
+	]
+]);
