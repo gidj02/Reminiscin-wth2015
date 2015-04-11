@@ -11,16 +11,12 @@
 |
 */
 
-Route::get('/', 'SessionController@index');
+Route::get('/', ['as' => 'index', 'uses' => 'SessionController@index']);
+Route::post('/login', ['as' => 'login', 'uses' => 'SessionController@store']);
+Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
 
 Route::resource('user', 'UserController',[
 	'only' => [
 		'edit', 'update', 'destroy', 'create', 'store'
-	]
-]);
-
-Route::resource('session', 'SessionController',[
-	'only' => [
-		'index', 'store', 'destroy', 'create'
 	]
 ]);
