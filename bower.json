@@ -1,0 +1,23 @@
+{
+  "name": "wth2015",
+  "version": "0.0.0 ",
+  "homepage": "https://github.com/gidj02/wth2015",
+  "authors": [
+    "Ben <iglesia.ben@gmail.com>",
+    "James <jamesv.labnao@gmail.com>",
+    "Gino <ginodejesus02@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~1.9.1"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
