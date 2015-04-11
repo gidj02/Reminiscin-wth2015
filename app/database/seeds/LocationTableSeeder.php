@@ -64,6 +64,35 @@ class LocationTableSeeder extends Seeder {
         Location::create(array('name' => 'East Ridge Golf Club, Binangonan, Rizal',
                                     'location' => 'Binangonan, Rizal, Phi',
                                     'description' => 'Sprawled on an exciting vista of mountain ridges, rolling hills and ravines, the 18-hole par 72 championship course spans eighty hectares of an exciting golfing challenge.'));
+    
+        Location::create(array('name' => 'Hinulugang Taktak',
+                                    'location' => 'Antipolo City, Philippines',
+                                    'description' => 'This mountain resort right in the bustling heart of Antipolo has picnic cottages, a swimming area, footpaths and a small waterfall. The festival month of May attracts thousands of visitors who come to watch concerts and stage plays held at the park.'));
+
+        Location::create(array('name' => 'Calinawan Cave',
+                                    'location' => 'Tanay, Rizal, Philippines',
+                                    'description' => 'This cave served as a shelter and hideaway from the Japanese during World War 2.'));
+
+        Location::create(array('name' => 'Daranak Falls',
+                                    'location' => 'Tanay, Rizal, Philippines',
+                                    'description' => 'This 14 meter high waterfalls is a favorite location shooting area of most local and international movies and advertising outfits in the country and can be found at the foot of the Tanay Mountains.'));
+
+        Location::create(array('name' => 'Baras Church',
+                                    'location' => 'Baras, Rizal, Philippines',
+                                    'description' => 'This Church is one of the oldest in the area having been completed in 1686 and which has an altar and lecterns that are stone artifacts unearthed from beneath the church.'));
+
+        Location::create(array('name' => 'Batlag Falls',
+                                    'location' => 'Tanay, Rizal, Philippines',
+                                    'description' => 'Further up from Daranak Falls is its sister upstream, Batlag Falls. This 10 meter high waterfalls is set on a unique rock formation.'));
+
+        Location::create(array('name' => 'St. Mary Magdalene Parish Church',
+                                    'location' => 'Pililla, Rizal, Philippines',
+                                    'description' => ' The church is more than 400 years old. Built in 1572 under the supervision of franciscan priests. The first church was built made of bamboo and cogon. Numerous renovations was made in the past four decades. Antique saint statues are some of the church treasures. The church serves as the town peoples sanctuary during World War II. The church remain dear to devoted Catholics in this town which is about 70% of its population. '));
+
+        Location::create(array('name' => 'Wawa dam',
+                                    'location' => 'Rodriguez, Rizal, Philippines',
+                                    'description' => 'Wawa Dam (also known as Montalban Dam)is a gravity dam constructed over the Marikina River in the municipality of Rodriguez in Rizal province, Philippines. The slightly arched dam is situated in the 360-metre (1,180 ft) high Montalban Gorge or Wawa Gorge, a water gap in the Sierra Madre Mountains, east of Manila. It was built in 1909 during the American colonial era to provide the water needs for Manila. It used to be the only source of water for Manila until Angat Dam was built and Wawa was abandoned. Due to insufficiency of water supply for Metro Manila, there was a strong clamor to reuse the dam.'));
+
     }
 
 }
