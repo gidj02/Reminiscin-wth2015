@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title> User Profiling </title>
+		<title> WTH2015 </title>
 		{{ HTML::style('bootstrap.css')}}
 	</head>
 		<body>

@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'wth2015DB',
 			'username'  => 'root',
-			'password'  => 'gidj02',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
