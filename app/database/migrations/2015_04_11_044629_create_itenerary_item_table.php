@@ -16,6 +16,7 @@ class CreateIteneraryItemTable extends Migration {
 		{
 			$table->increments('id');
 			$table->integer('itenenaryid');
+			$table->integer('locationid');
 			$table->string('name');
 			$table->float('review');
 			$table->string('location');
