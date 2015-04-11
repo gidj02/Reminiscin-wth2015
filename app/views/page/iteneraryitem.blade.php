@@ -2,148 +2,143 @@
 @section('contents')
 
 <div class="row">
-	<!-- Start of time line -->
 	<div class="container">
-	    <div class="page-header">
-			<h1 id="">{{ <!-- Name of Itenerary --> }}</h1>
-		</div>
-		<div id="timeline"><div class="row timeline-movement timeline-movement-top">
-	    <div class="timeline-badge timeline-future-movement">
-	        <a href="#">
-	            <span class="glyphicon glyphicon-plus"></span>
-	        </a>
+		<!-- Start of time line -->
+	    <div class="page-header text-center">
+	        <h1 id="timeline">Timeline 2.1</h1>
 	    </div>
-	    <div class="timeline-badge timeline-filter-movement">
-	        <a href="#">
-	            <span class="glyphicon glyphicon-time"></span>
-	        </a>
-	    </div>
-
-	</div>
-	<div class="row timeline-movement">
-
-	    <div class="timeline-badge">
-	        <span class="timeline-balloon-date-day">18</span>
-	        <span class="timeline-balloon-date-month">APR</span>
-	    </div>
-
-
-	    <div class="col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-11">
-	                <div class="timeline-panel credits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	    <ul class="timeline">
+	        <li>
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
 
 	            </div>
-	        </div>
-	    </div>
-
-	    <div class="col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-offset-1 col-sm-11">
-	                <div class="timeline-panel debits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
 
 	            </div>
-	        </div>
-	    </div>
-	</div>
 
-	<!--due -->
+	            <div class="timeline-footer">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
 
-	<div class="row timeline-movement">
-
-
-	    <div class="timeline-badge">
-	        <span class="timeline-balloon-date-day">13</span>
-	        <span class="timeline-balloon-date-month">APR</span>
-	    </div>
-
-	    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-offset-1 col-sm-11">
-	                <div class="timeline-panel debits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	        <li  class="timeline-inverted">
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
 
 	            </div>
-	        </div>
-	    </div>
-
-	    <div class="col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-11">
-	                <div class="timeline-panel credits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
 
 	            </div>
-	        </div>
-	    </div>
 
-
-	</div>
-	<div class="row timeline-movement">
-
-
-	    <div class="timeline-badge">
-	        <span class="timeline-balloon-date-day">10</span>
-	        <span class="timeline-balloon-date-month">APR</span>
-	    </div>
-
-	    <div class="col-sm-offset-6 col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-offset-1 col-sm-11">
-	                <div class="timeline-panel debits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	            <div class="timeline-footer">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
+	        <li>
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
 
 	            </div>
-	        </div>
-	    </div>
-
-	    <div class="col-sm-6  timeline-item">
-	        <div class="row">
-	            <div class="col-sm-11">
-	                <div class="timeline-panel credits">
-	                    <ul class="timeline-panel-ul">
-	                        <li><span class="importo">Mussum ipsum cacilds</span></li>
-	                        <li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-	                        <li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/09/2014</small></p> </li>
-	                    </ul>
-	                </div>
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
 
 	            </div>
-	        </div>
-	    </div>
 
+	            <div class="timeline-footer">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
 
-	</div>
-	</div>
-	</div>
+	        <li  class="timeline-inverted">
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
 
+	            </div>
+
+	            <div class="timeline-footer">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
+	        <li>
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+	            </div>
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+
+	            </div>
+
+	            <div class="timeline-footer">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
+
+	        <li  class="timeline-inverted">
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+	            </div>
+	            <div class="timeline-body">
+	              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+
+	            </div>
+
+	            <div class="timeline-footer primary">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
+	        <li>
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-body">
+	              <p><b>All the credits go to <a href="http://bootsnipp.com/rafamaciel">Rafamaciel</a></b></p>
+	              <p>I only make it responsive and remove the empty spaces to be more like Facebook timeline!</p>
+	            </div>
+
+	            <div class="timeline-footer primary">
+	                <a><i class="glyphicon glyphicon-thumbs-up"></i></a>
+	                <a><i class="glyphicon glyphicon-share"></i></a>
+	                <a class="pull-right">Continuar Lendo</a>
+	            </div>
+	          </div>
+	        </li>
+
+	        <li class="clearfix" style="float: none;"></li>
+	    </ul>
+	</div>
 </div>
-
 @stop
