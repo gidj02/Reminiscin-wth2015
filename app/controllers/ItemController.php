@@ -9,7 +9,7 @@ class ItemController extends \BaseController {
 	public function __construct(Itinerary $itinerary, Item $item)
 	{
 		$this->itinerary = $itinerary;
-		$this->item = $item
+		$this->item = $item;
 	}
 
 	/**

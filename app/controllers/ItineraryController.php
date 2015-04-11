@@ -53,8 +53,8 @@ class ItineraryController extends \BaseController {
 	public function show($id)
 	{ 
 		$user = $this->user->find($id);
-		$itinenary = Itinerary::whereUserid($id)->get();
-		return View::make('page/itinerarylist', compact('user'));
+		$itinerary = Itinerary::whereUserid($id)->get();
+		return View::make('page/itinerarylist', compact('user', 'itinerary'));
 	}
 
 

@@ -35,18 +35,14 @@
 						                </div>
 						            </div>
 					  			</div>
-					  			<div class="row">
-									<div class="form-group">
-						                <label class="col-md-4 control-label">Description: </label>
-						                <div class="col-md-6">
-						              		{{ Form::textarea('description') }}
-						              		<br>
-											{{ $errors->first('description') }}
-						                </div>
-						            </div>
-					  			</div>
+
 								<!-- End of End Items -->
 								<!-- End of Iterinary Items -->
+					            <br>
+					            <br>
+					            <br>
+					            <br>
+					            <br>
 					            <br>
 					            <!-- Save button -->
 					            {{ Form::submit('Save', array('class' => 'btn btn-block btn-warning')) }}
