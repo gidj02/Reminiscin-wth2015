@@ -7,7 +7,7 @@ class ItineraryTableSeeder extends Seeder {
     {	
         DB::table('itinerary')->delete();
 
-        Itinerary::create(array('userid' => '4',
+        Itinerary::create(array('userid' => '1',
         				   'name' => 'Mountain Itinerary',
         				   'review' => '1.4'));
     }

@@ -107,7 +107,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
                             Angono and Binangonan Petroglyphs
                             A recent archeological breakthrough of the 90s is the discovery of ancient petroglyphs in the mountainside of Angono and Binangonan. The petroglyphs were validated by the National Museum, the UNESCO and KOMOS as one of the oldest in the Asia-Pacific Region. They can be traced back to the third millennium, B.C. It has been declared as aheritage site. The Deaprtment of Tourism in coordination with the National Commission for Culture and the Arts, is now engaged in the development of the site, the protection of the walls from damaged caused by man the elements, and the construction of viewing and rest areas. ',
-                           'date' => '2005-07-14');
+                           'date' => '2005-07-14'));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '2',
@@ -118,7 +118,7 @@ class ItineraryItemTableSeeder extends Seeder {
                             When I alighted the tricycle, I was worried that the Forest Park might be closed because the old lady that I met at the entrance told me that there was a council meeting. She also asked if I was there for a photo shoot and I replied that I was just touring around. I also asked if there was an entrance fee as it was stated on the sign outside but she told me there was no need for me to pay.It was such a treat for me to talk to the old lady (I didn’t get her name) because she told me a little about the park and that there were steps at the back. She also told me how many steps there were and according to the kids who play there, it’s 77 steps.When I got to the end of the steps, it took me to a road. It was so quiet up there. The old lady mentioned to me that there was a retreat house at the end of the road. But I didn’t go that far for fear that I’d get even more lost. So while the retreat house was up, I went down the road to go back to the entrance of the park. I went back in and had a little chat again with the old lady and walked around for a bit before leaving. I went home feeling really good about myself because I gained a bit of confidence while asking for directions. I took the tricycle back to the plaza for P10 and waited for an FX by the main road. Good thing I asked the FX driver earlier that day on where to wait unless I would’ve been lost. I spent a total of P342 going there and home. Not bad. The people were so accommodating and I’m glad that nothing bad happened to me. Next adventure, I’m dragging someone along.
 
                             It was my first adventure of the year and I think l learned more about art than in one of my history art classes during college (or maybe because this interested me more than listening to my professor). I really think that a trip to Angono would be a good requirement for art students. But better late than never for me.',
-                           'date' => '2014-02-10');
+                           'date' => '2014-02-10'));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '3',
@@ -127,7 +127,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'location' => 'Antipolo City, Philippines',
                            'blog' => '
                            Hamaka Park is along the P. Oliveros Street. It has bronze figures of Antipolo’s mark of distinction such as the hamaka tradition, Our Lady of Peace and Good Voyage and town sellers of the city’s major products (suman, kasoy and mangga).',
-                           'date' => ' 2012-03-22');
+                           'date' => ' 2012-03-22'));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '4',
@@ -158,7 +158,7 @@ class ItineraryItemTableSeeder extends Seeder {
                           A local television documentary named the supernatural force as Pandora, a river fairy who has been raped by a mortal and has sought revenge by drowning her victims. Tired and thristy, we rested in one of the bamboo stalls selling sweet turon and ice-cold samalamig along the side of the trail. We asked the tindera about the Pamitinan Cave. She pointed at the limestone wall across her stall where two caves are visible from her stall’s window.
 
                           A year before the start of the 1896 Revolution, Andres Bonifacio with eight men fled to the mountains of Montalaban, to Pamintinan Cave on a Good Friday. Bonifacio inscribed on the cave wall what could have been the first cry of Philippine Independence. According to the local tourism office, the cave wall still bears the inscription Viva la Independencia Filipinas!The Pamintinan Cave is just one of the several cave systems in the Montalban Gorge. Other caves are said to be where the Japanese soldiers have retreated and spent their last defense during the final days of World War II. A marker by the cave entrance is visible from the trail. Guided tours into the caves are arranged at the Montalban Tourism Office.',
-                           'date' => '2010-05-22');
+                           'date' => '2010-05-22  '));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '5',
@@ -170,7 +170,7 @@ class ItineraryItemTableSeeder extends Seeder {
                             The selection of the layout resulted from the comparative expertise of two architects, an Englishman named Fred Smith and an Australian named Jas H. Scott, who both submitted plans. Finally the Australian, Jas H. Scotts design was adopted.
 
                             Three years after the nursery was built, Valley Golf was opened for play in 1961 and attracted a great traffic of players and aficionados. With this encouraging trend, the club was expanded to accommodate another par-72, 18-hole course on the north in addition to its original south course in 1989.',
-                           'date' => '2009-07-02');
+                           'date' => '2009-07-02'));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '6',
@@ -188,8 +188,8 @@ class ItineraryItemTableSeeder extends Seeder {
 
                             And this serves as our calling to fulfil our duty as nature’s ambassadors. 
                             Support and protect the world. Save mother earth.',
-                           'date' => '2012-02-04');
-    }
+                           'date' => '2012-02-04'));
+    
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '7',
@@ -201,7 +201,7 @@ class ItineraryItemTableSeeder extends Seeder {
                             The cave has 7 layers as our tour guide explained; the first and the second layer is easy to explore which is approximately 150 meters walk between the entrance and exit point.  The third to fifth layer is hard as it involves crawling; the sixth and the seventh layer connects to Montalban, Rizal and it takes approximately 9 days to explore.  This was an interesting story from our guide as someone made it to have reached the Montalban exit.  Calinawan cave once served as stronghold for the revolutionaries during the Spanish, American and Japanese occupation. It will take around 30-45 minutes to explore the cold cave.  Steps have to be watched carefully and it has a low ceiling through the passages.
 
                             My experiencing for exploring Calinawan cave gave me an opportunity to educate myself that some of the caves that have historical relevance aside from being part of the tourist attraction.  It was good to know that this openned my eyes to get to know more about some of the caves in the Philippines.',
-                           'date' => '2014-04-02');
+                           'date' => '2014-04-02'));
 
         Item::create(array('itineraryid' => '1',
                            'locationid' => '8',
@@ -209,8 +209,8 @@ class ItineraryItemTableSeeder extends Seeder {
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'Summer isn’t over, and if you’re regretting you haven’t set your foot on the beach yet, don’t be! Beaches near Metro Manila especially during weekends could be massively crowded, and it is not good though. Well, if you’re just looking for a beach – like – experience just to quench the heat of summer, better find alternative ways to enjoy the season. The refreshingly cold, fresh and surging water of Daranak Falls will surely kill that tempting desire. The Daranak Falls has 14-meter high waterfalls cascading into a deep catch basin that serves as a natural pool which make a perfect summer or even a year - round getaway for everyone. It is concealed on the mountainside of Sierra Madre Mountain Range in the town of Tandang Kutyo, Tanay, Rizal.  Daranak Falls is now becoming popular to locals and tourists because of its accessibility from the Metro Everyone can enjoy the enticing azure cold water of the falls. Rubber tube is available for those non - swimmers who want to relax in the middle of the pool.  Visitors find its pool as perfect for cliff diving, and interested divers will be attended by the local guide for safety. The area is protected by local government and is responsible for maintaining the cleanliness and orderliness of the park. The facility has cottages, souvenir shops and restaurants. Parking lots are available outside the area. Daranak Falls is open daily from 8:00AM – 5:00PM, entrance fee for adult is 20 pesos and 15 pesos for kids. Picnic shed is available for 300 pesos, whereas picnic table is for 150 pesos. Overnight camping is not allowed. All alcoholic beverages are not allowed. ',
-                           'date' => '2014-05-12');
-    }
+                           'date' => '2014-05-12'));
+    
         Item::create(array('itineraryid' => '1',
                            'locationid' => '9',
                            'name' => 'insertnamehere',
@@ -218,7 +218,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'location' => 'Antipolo City, Philippines',
                            'blog' => ' I am always fascinated by the mysticism of the church the moment I set my feet off to some of the captivating places I have visited in the past.  The church always appeals me because some of them have a historical relevance attached to a place as the church exists for more than hundred years old.  As landmark to every town, the church also serves as a sign that you have gotten the place.  The gritty look of the old church reminds us that we were colonized by Spain and it was of the different orders who brought Christianity to our country.
                             I had a short trip yesterday and made a visit to St. Joseph Parish church in Baras, Rizal.  Known as Baras church by the locals, the structure was built 300 years ago.  The Franciscan built the original church in 1595.  The dimly-lit cold interior is more interesting as the hall is accented by the large golden altar of the images of saints, and the rough timber beams gave most of the rustic feel of the church.  It is vintage plain and simple, and the look has a strong character that conveys its historical background.There was a graduation event going on at the vicinity of Baras Church and what I had to do is to leave the place as early as I can.  There were vendors outside selling some foods and what caught my attention was the ice scramble as it was very hot due to summer season.Going to Baras Church is easy and you can take jeepneys bound for Tanay, Rizal.  Ask the driver to drop you off to the Municipal Hall and a 5-minute walk uphill to the church.  Travel time depends on where you came from.  From Cainta, Ortigas extension, it’s more or less one and a half travel time if you are taking a jeepney ride.',
-                           'date' => '2014-03-13');
+                           'date' => '2014-03-13'));
     }
 }
 

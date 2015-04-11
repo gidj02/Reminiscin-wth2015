@@ -1,15 +1,17 @@
 <?php
 
-class ItineraryController extends \BaseController {
+class ItemController extends \BaseController {
 
-	protected $user;
+
 	protected $itinerary;
+	protected $item;
 
-	public function __construct(User $user, Itinerary $itinerary)
+	public function __construct(Itinerary $itinerary, Item $item)
 	{
-		$this->user = $user;
-		$this->$itinerary = $itinerary;
+		$this->itinerary = $itinerary;
+		$this->item = $item;
 	}
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -26,10 +28,9 @@ class ItineraryController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create($id)
+	public function create()
 	{
-		$user = $this->user->find($id);
-		return View::make('page/itineraryform', compact('user'));
+		//
 	}
 
 
@@ -40,7 +41,7 @@ class ItineraryController extends \BaseController {
 	 */
 	public function store()
 	{
-		return 'dito na ako store';
+		//
 	}
 
 
@@ -51,10 +52,10 @@ class ItineraryController extends \BaseController {
 	 * @return Response
 	 */
 	public function show($id)
-	{ 
-		$user = $this->user->find($id);
-		$itinerary = Itinerary::whereUserid($id)->get();
-		return View::make('page/itinerarylist', compact('user', 'itinerary'));
+	{
+		$itinerary = $this->itinerary->find($id);
+		$item = Item::whereItineraryid($id)->get();
+		return View::make('page/itineraryitem', compact('itinerary', 'item'));
 	}
 
 
