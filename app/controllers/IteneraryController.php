@@ -24,9 +24,10 @@ class IteneraryController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create($id)
 	{
-		//
+		$user = $this->user->find($id);
+		return View::make('page/iteneraryform', compact('user'));
 	}
 
 
@@ -37,7 +38,7 @@ class IteneraryController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		return 'dito na ako store';
 	}
 
 

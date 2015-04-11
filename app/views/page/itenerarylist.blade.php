@@ -12,16 +12,12 @@
     </a> -->
 </div>
 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <a class="thumbnail" href="#" id="additenerary">
+    <a class="thumbnail" href="{{ URL::to('itenerary/create/' . $user->id) }}" id="additenerary">
         <span class="center glyphicon glyphicon-plus"> </span>
     </a>
 </div>
 
 </div>
 {{ HTML::script('jquery.js') }}
-<script>
-	$("#additenerary").click(function(){
 
-	});
-</script>
 @stop

@@ -1,10 +1,11 @@
-@extend('layout.user_master')
+@extends('layout.user_master')
+
 @section('contents')
 	<div class="panel panel-primary">
 		<div class="panel-heading"><h1> Itenerary Form </h1></div>
 			<div class="panel-body">
 				<!-- Wala pang createItenerary sa Controller -->
-				{{ Form::open(['route' => 'createItenerary']) }} 
+				{{ Form::open(['route' => 'itenerary.store']) }} 
 			<div class="row">
 		        <div class="col-xs-12 col-sm-6 col-md-6">
 		            <div class="well well-sm">
@@ -59,8 +60,7 @@
 								<!-- End of Iterinary Items -->
 					            <br>
 					            <!-- Save button -->
-					            <button id="save" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" value="Save">
-	                            </button>
+					            {{ Form::submit('Save', array('class' => 'btn btn-block btn-warning')) }}
 	                            <!-- End of Save button -->
 								</div>
 		                    </div>
