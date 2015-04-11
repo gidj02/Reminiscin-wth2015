@@ -27,7 +27,7 @@ class UserController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		return View::make('page/register');
 	}
 
 
@@ -38,7 +38,21 @@ class UserController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$validator = Validator::make(Input::all(), User::$rules);
+
+		if($validator->fails()){
+			return Redirect::route('user.create')->withInput()->withErrors($validator->messages());
+		}
+		else{
+			$user = new User;
+			$user->username = Input::get('username');
+			$user->password = Hash::make(Input::get('password'));
+			$user->email = Input::get('email');
+			$user->contact = Input::get('contact');
+			$user->save();			
+		}
+
+		return Redirect::route('index');
 	}
 
 
