@@ -16,7 +16,12 @@ class SessionController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		if(!Auth::check())
+		{
+ 			return View::make('page/login');
+		}
+
+		// return View::make('pages/home');
 	}
 
 

@@ -11,19 +11,16 @@
 |
 */
 
-Route::get('/', function()
-{
-	return 'James';
-});
+Route::get('/', 'SessionController@index');
 
 Route::resource('user', 'UserController',[
 	'only' => [
-		'edit', 'update', 'destroy'
+		'edit', 'update', 'destroy', 'create', 'store'
 	]
 ]);
 
-Route::resource('session', 'UserController',[
+Route::resource('session', 'SessionController',[
 	'only' => [
-		'index', 'store', 'destroy'
+		'index', 'store', 'destroy', 'create'
 	]
 ]);
