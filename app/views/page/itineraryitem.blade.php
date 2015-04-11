@@ -62,7 +62,10 @@
 
 	        <li class="clearfix" style="float: none;"></li>
 	    </ul>
+
+	    {{ Form::open(['route' => 'itemcreate']) }}
 	    {{ Form::submit('Add Item', array('class' => 'btn btn-block btn-warning')) }}
+		{{ Form::close() }}
 	</div>
 </div>
 
