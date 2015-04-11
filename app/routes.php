@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', ['as' => 'index', 'uses' => 'SessionController@index']);
-Route::post('/login', ['as' => 'login', 'uses' => 'SessionController@store']);
+Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
+
+Route::get('/login', ['as' => 'login', 'uses' => 'SessionController@index']);
+Route::post('/storesession', ['as' => 'storesession', 'uses' => 'SessionController@store']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
 
 Route::resource('user', 'UserController',[

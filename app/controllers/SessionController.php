@@ -50,16 +50,16 @@ class SessionController extends \BaseController {
             								   'password' => 'required|min:6' ]);
 		if($validator->fails()){
 			echo "<script type='text/javascript'>alert('Please check your inputs');</script>";
-			return Redirect::route('index')->withInput()->withErrors($validator->messages());
+			return Redirect::route('login')->withInput()->withErrors($validator->messages());
 		}
 
 		if(Auth::attempt(['username' => $inputs['username'], 'password' => $inputs['password']]))
 		{
 			echo "<script type='text/javascript'>alert('Logged in!');</script>";
-			return Redirect::route('index');		
+			return Redirect::route('login');		
 		}
 
-        return Redirect::route('index')->withInput();
+        return Redirect::route('login')->withInput();
 	}
 
 
