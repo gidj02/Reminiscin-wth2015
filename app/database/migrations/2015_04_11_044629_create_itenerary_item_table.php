@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -15,6 +15,12 @@ class CreateIteneraryItemTable extends Migration {
 		Schema::create('item', function(Blueprint $table)
 		{
 			$table->increments('id');
+			$table->unsignedInteger('itenenaryid');
+			$table->foreign('itenenaryid')->references('id')->on('itenerary');
+			$table->string('name');
+			$table->float('review');
+			$table->string('location');
+			$table->string('blog');
 			$table->timestamps();
 		});
 	}

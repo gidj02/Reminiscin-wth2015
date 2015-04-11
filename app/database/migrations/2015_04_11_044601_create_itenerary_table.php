@@ -15,6 +15,10 @@ class CreateIteneraryTable extends Migration {
 		Schema::create('itenerary', function(Blueprint $table)
 		{
 			$table->increments('id');
+			$table->unsignedInteger('userid');
+			$table->foreign('userid')->references('id')->on('users');
+			$table->string('name');
+			$table->float('review');
 			$table->timestamps();
 		});
 	}
