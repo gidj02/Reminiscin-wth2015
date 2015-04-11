@@ -8,6 +8,33 @@
 			<div class="row">
 		  		<div class="col-lg-12">
 		  			<div class="form-group">
+		                <label class="col-md-4 control-label">First Name: </label>
+		                <div class="col-md-6">
+		              		{{ Form::text('firstname') }}
+		              		<br>
+							{{ $errors->first('firstname') }}
+		                </div>
+		            </div>
+					<br>
+		  			<div class="form-group">
+		                <label class="col-md-4 control-label">Middle Name: </label>
+		                <div class="col-md-6">
+		              		{{ Form::text('middlename') }}
+		              		<br>
+							{{ $errors->first('middlename') }}
+		                </div>
+		            </div>
+					<br>
+		  			<div class="form-group">
+		                <label class="col-md-4 control-label">Last Name: </label>
+		                <div class="col-md-6">
+		              		{{ Form::text('lastname') }}
+		              		<br>
+							{{ $errors->first('lastname') }}
+		                </div>
+		            </div>
+					<br>
+		  			<div class="form-group">
 		                <label class="col-md-4 control-label">Username: </label>
 		                <div class="col-md-6">
 		              		{{ Form::text('username') }}
@@ -31,6 +58,24 @@
 		               		{{ Form::password('password_confirmation') }}
 		               		<br>	
 							{{ $errors->first('password_confirmation') }}
+		                </div>
+		            </div>
+					<br>
+		  			<div class="form-group">
+		                <label class="col-md-4 control-label">Email Address: </label>
+		                <div class="col-md-6">
+		              		{{ Form::text('email') }}
+		              		<br>
+							{{ $errors->first('email') }}
+		                </div>
+		            </div>
+					<br>
+		  			<div class="form-group">
+		                <label class="col-md-4 control-label">Contact Number: </label>
+		                <div class="col-md-6">
+		              		{{ Form::text('contact') }}
+		              		<br>
+							{{ $errors->first('contact') }}
 		                </div>
 		            </div>
 					<br>

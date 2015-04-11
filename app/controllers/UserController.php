@@ -27,11 +27,7 @@ class UserController extends \BaseController {
 	 */
 	public function create()
 	{
-<<<<<<< HEAD
 		return View::make('page/signup');
-=======
-		return View::make('page/register');
->>>>>>> 786cbba251dc0dbe5a09ac4ad22af65d2a98960a
 	}
 
 
@@ -56,11 +52,8 @@ class UserController extends \BaseController {
 			$user->save();			
 		}
 
-<<<<<<< HEAD
 		return Redirect::route('login');
-=======
 		return Redirect::route('index');
->>>>>>> 786cbba251dc0dbe5a09ac4ad22af65d2a98960a
 	}
 
 
