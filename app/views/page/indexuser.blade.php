@@ -1,5 +1,4 @@
-@extends('layout.master')
-
+@extends('layout.user_master')
 
 @section('contents')
 <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
