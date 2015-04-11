@@ -21,7 +21,7 @@ class SessionController extends \BaseController {
  			return View::make('page/login');
 		}
 
-		// return View::make('pages/home');
+		return View::make('page/home');
 	}
 
 
@@ -43,7 +43,23 @@ class SessionController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$inputs = Input::only(['username', 
+						   'password']);
+
+		$validator = Validator::make($inputs,[ 'username' => 'required|min:6',
+            								   'password' => 'required|min:6' ]);
+		if($validator->fails()){
+			echo "<script type='text/javascript'>alert('Please check your inputs');</script>";
+			return Redirect::route('index')->withInput()->withErrors($validator->messages());
+		}
+
+		if(Auth::attempt(['username' => $inputs['username'], 'password' => $inputs['password']]))
+		{
+			echo "<script type='text/javascript'>alert('Logged in!');</script>";
+			return Redirect::route('index');		
+		}
+
+        return Redirect::route('index')->withInput();
 	}
 
 
@@ -89,9 +105,14 @@ class SessionController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy()
 	{
-		//
+		if(Auth::check())
+		{
+ 			Auth::logout();
+		}
+
+ 		return Redirect::route('index');
 	}
 
 

@@ -47,12 +47,13 @@ class UserController extends \BaseController {
 			$user = new User;
 			$user->username = Input::get('username');
 			$user->password = Hash::make(Input::get('password'));
+			$user->firstname = Input::get('firstname');
+			$user->middlename = Input::get('middlename');
+			$user->lastname = Input::get('lastname');
 			$user->email = Input::get('email');
 			$user->contact = Input::get('contact');
 			$user->save();			
 		}
-
-		return Redirect::route('login');
 		return Redirect::route('index');
 	}
 
