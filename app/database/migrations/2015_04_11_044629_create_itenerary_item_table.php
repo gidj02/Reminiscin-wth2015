@@ -15,8 +15,7 @@ class CreateIteneraryItemTable extends Migration {
 		Schema::create('item', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->unsignedInteger('itenenaryid');
-			$table->foreign('itenenaryid')->references('id')->on('itenerary');
+			$table->integer('itenenaryid');
 			$table->string('name');
 			$table->float('review');
 			$table->string('location');
