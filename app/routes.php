@@ -13,5 +13,17 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return 'James';
 });
+
+Route::resource('user', 'UserController',[
+	'only' => [
+		'edit', 'update', 'destroy'
+	]
+]);
+
+Route::resource('session', 'UserController',[
+	'only' => [
+		'index', 'store', 'destroy'
+	]
+]);
