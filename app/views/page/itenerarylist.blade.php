@@ -1,4 +1,5 @@
 @extends('layout.user_master')
+
 @section('contents')
 <div class="container">
 <div class="col-lg-12">
@@ -15,6 +16,7 @@
         <span class="center glyphicon glyphicon-plus"> </span>
     </a>
 </div>
+
 </div>
 {{ HTML::script('jquery.js') }}
 <script>

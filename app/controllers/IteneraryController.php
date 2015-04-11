@@ -2,6 +2,12 @@
 
 class IteneraryController extends \BaseController {
 
+	protected $user;
+
+	public function __construct(User $user)
+	{
+		$this->user = $user;
+	}
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -43,7 +49,8 @@ class IteneraryController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		//
+		$user = $this->user->find($id);
+		return View::make('page/itenerarylist', compact('user'));
 	}
 
 
