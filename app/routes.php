@@ -22,3 +22,9 @@ Route::resource('user', 'UserController',[
 		'edit', 'update', 'destroy', 'create', 'store'
 	]
 ]);
+
+Route::resource('itenerary', 'IteneraryController',[
+	'only' => [
+		'show'
+	]
+]);
