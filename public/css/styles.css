@@ -729,3 +729,16 @@ Image credits: unsplash.com
   left: 28px;
 }
 }
+
+.addter {
+    font-size: 100px;
+    padding: 41px 80px;
+}
+
+.itemter {
+    opacity: 0.5;
+}
+
+.itemter:hover {
+    opacity: 1;
+}

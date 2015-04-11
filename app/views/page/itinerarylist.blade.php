@@ -6,18 +6,52 @@
 	<h1 class="page-header">Itinerary</h1>
 </div>
 
-<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itinerarylist">
-    <!-- <a class="thumbnail" href="#">
-        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-    </a> -->
+<div class="row">
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
+
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
+
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
+
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
 </div>
-<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <a class="thumbnail" href="{{ URL::to('itinerary/create/' . $user->id) }}" id="additinerary">
-        <span class="center glyphicon glyphicon-plus"> </span>
-    </a>
+
+<div class="row">
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
+
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
+	    <a class="thumbnail" href="#">
+	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    </a>
+	</div>
+
+	<div class="col-lg-3 col-md-4 col-xs-6 thumb itemter">
+	    <a class="thumbnail" href="{{ URL::to('itinerary/create/' . $user->id) }}" id="additenerary">
+	        <span class="center glyphicon glyphicon-plus addter"></span>
+	    </a>
+	</div>
 </div>
 
 </div>
-{{ HTML::script('jquery.js') }}
 
 @stop

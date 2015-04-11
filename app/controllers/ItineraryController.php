@@ -51,10 +51,10 @@ class ItineraryController extends \BaseController {
 	 * @return Response
 	 */
 	public function show($id)
-	{
+	{ 
 		$user = $this->user->find($id);
-		$itinerary = $this->itinerary->where('userid', '=', $id)->get();
-		return View::make('page/itinerarylist')->withCompact('user', 'itinerary');
+		$itinenary = Itinerary::whereUserid($id)->get();
+		return View::make('page/itinerarylist', compact('user'));
 	}
 
 
