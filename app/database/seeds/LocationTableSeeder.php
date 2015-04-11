@@ -11,18 +11,17 @@ class LocationTableSeeder extends Seeder {
                         				   'location' => 'Angono, Rizal, Philippines',
                         				   'description' => 'The town of Angono is known for the Higantes Festival and for its admirable artworks of extraordinarily talented artists. It is the home town of the two great National Artists of the Philippines, Carlos “Botong” Francisco for visual arts and Maestro and Lucio San Pedro for music, who have inspired generations of artists to create numerous works in varied styles of artistic expressions
                                              There are a number of art galleries and studios within the town which makes Angono the Art Capital of the Philippines. These are the Blanco Family Museum, Nemiranda Arthouse & Gallery, Tiamson Art Gallery, Ang Nuno Artists Foundation Gallery, Village Artists Gallery, Juban Studios, Vicente Reyes Art Studio, the Second Gallery and the Angono Ateliers Gallery.'));
+<<<<<<< HEAD
+=======
 
         Location::create(array('name' => 'World Sikaran/Arnis Brotherhood of the Philippines, 20 Katipunan St., Baras, Rizal',
                                    'location' => 'Angono, Rizal, Philippines',
                                    'description' => 'Sikaran/Arnis is a foot game/sword play and is a combination of two kinds of martial arts that are uniquely Filipino. In Sikaran, the players move around like boxers. Each one aims to knock his opponent down by kicking the latter’s legs. The kicks are delivered with considerable force and agility, and sudden upward and backward movements of the foot. The use of the feet is necessary in winning over the opponent; thus, the name “sikaran” which means “to kick” came about. In arnis, the players use rattan or a wooden stick and strike each other’s sticks. The player who is able to touch his opponent’s body first with the point of his wooden stick or force him to drop his weapon is declared winner.'));
+>>>>>>> e946c0e7e48d2ba06305dcf0ed62c04f86bee7b7
         
         Location::create(array('name' => 'Angono Forest Park, Angono, Rizal',
                                     'location' => 'Angono, Rizal, Philippines',
                                     'description' => 'A 1.5 hectare of land profuse with high rising trees and shrubs which is the perfect site for camping and outdoor environmental and recreational activities. The place is also a good venue for meetings, gatherings and other occasions.'));
-
-        Location::create(array('name' => 'Blanco Family Museum, 312 Ibanez St., Sto. Nino, Angono, Rizal',
-                                    'location' => 'Angono, Rizal, Philippines',
-                                    'description' => 'This family of prolific painters welcomes visitors to their private museum housing their vast collection of artworks. The head of the clan, renowned artist Jose D. Blanco, has obviously handed down to his many children his great creativity and talent.'));
 
         Location::create(array('name' => 'Hamaka Park, Along the National Road, Antipolo City',
                                     'location' => 'Antipolo City, Philippines',
@@ -36,10 +35,6 @@ class LocationTableSeeder extends Seeder {
         Location::create(array('name' => 'Valley Golf and Country Club, Sumulong Highway, Antipolo City',
                                     'location' => 'Antipolo City, Philippines',
                                     'description' => 'The land area, terrain and topography of the valley meet the criteria for a standard championship golf course. The clubhouse is the venue for special events and fellowship of club members and guests.'));
-
-        Location::create(array('name' => 'East Ridge Golf Club, Binangonan, Rizal',
-                                    'location' => 'Binangonan, Rizal, Phi',
-                                    'description' => 'Sprawled on an exciting vista of mountain ridges, rolling hills and ravines, the 18-hole par 72 championship course spans eighty hectares of an exciting golfing challenge.'));
     
         Location::create(array('name' => 'Hinulugang Taktak',
                                     'location' => 'Antipolo City, Philippines',
@@ -57,18 +52,13 @@ class LocationTableSeeder extends Seeder {
                                     'location' => 'Baras, Rizal, Philippines',
                                     'description' => 'This Church is one of the oldest in the area having been completed in 1686 and which has an altar and lecterns that are stone artifacts unearthed from beneath the church.'));
 
-        Location::create(array('name' => 'Batlag Falls',
-                                    'location' => 'Tanay, Rizal, Philippines',
-                                    'description' => 'Further up from Daranak Falls is its sister upstream, Batlag Falls. This 10 meter high waterfalls is set on a unique rock formation.'));
+        // Location::create(array('name' => 'Batlag Falls',
+        //                             'location' => 'Tanay, Rizal, Philippines',
+        //                             'description' => 'Further up from Daranak Falls is its sister upstream, Batlag Falls. This 10 meter high waterfalls is set on a unique rock formation.'));
 
-        Location::create(array('name' => 'St. Mary Magdalene Parish Church',
-                                    'location' => 'Pililla, Rizal, Philippines',
-                                    'description' => ' The church is more than 400 years old. Built in 1572 under the supervision of franciscan priests. The first church was built made of bamboo and cogon. Numerous renovations was made in the past four decades. Antique saint statues are some of the church treasures. The church serves as the town peoples sanctuary during World War II. The church remain dear to devoted Catholics in this town which is about 70% of its population. '));
-
-        Location::create(array('name' => 'Wawa dam',
-                                    'location' => 'Rodriguez, Rizal, Philippines',
-                                    'description' => 'Wawa Dam (also known as Montalban Dam)is a gravity dam constructed over the Marikina River in the municipality of Rodriguez in Rizal province, Philippines. The slightly arched dam is situated in the 360-metre (1,180 ft) high Montalban Gorge or Wawa Gorge, a water gap in the Sierra Madre Mountains, east of Manila. It was built in 1909 during the American colonial era to provide the water needs for Manila. It used to be the only source of water for Manila until Angat Dam was built and Wawa was abandoned. Due to insufficiency of water supply for Metro Manila, there was a strong clamor to reuse the dam.'));
-
+        // Location::create(array('name' => 'St. Mary Magdalene Parish Church',
+        //                             'location' => 'Pililla, Rizal, Philippines',
+        //                             'description' => ' The church is more than 400 years old. Built in 1572 under the supervision of franciscan priests. The first church was built made of bamboo and cogon. Numerous renovations was made in the past four decades. Antique saint statues are some of the church treasures. The church serves as the town peoples sanctuary during World War II. The church remain dear to devoted Catholics in this town which is about 70% of its population. '));
     }
 
 }
