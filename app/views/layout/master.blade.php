@@ -2,8 +2,6 @@
 	<head>
 		<title> WTH2015 </title>
 		{{ HTML::style('bootstrap.css')}}
-		{{ HTML::style('thumbnail-gallery.css')}}
-		{{ HTML::style('timeline-style.css')}}
 	</head>
 		<body>
 	 	<nav class="navbar navbar-inverse">
