@@ -8,6 +8,7 @@
 	        <h1 id="timeline"><small>Welcome to your </small><br>{{ $itinerary->name }} </h1>
 	    </div>
 	    <ul class="timeline">
+
 	    <?php $x = 0; ?>
 	    @foreach($item as $value)
 	    	@if ($x%2 == 0)
@@ -61,6 +62,8 @@
 
 	        <li class="clearfix" style="float: none;"></li>
 	    </ul>
+	    {{ Form::submit('Add Item', array('class' => 'btn btn-block btn-warning')) }}
 	</div>
 </div>
+
 @stop
