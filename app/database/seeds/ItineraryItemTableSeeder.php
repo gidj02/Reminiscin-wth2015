@@ -1,13 +1,13 @@
 <?php
 
 
-class IteneraryItemTableSeeder extends Seeder {
+class ItineraryItemTableSeeder extends Seeder {
 
     public function run()
     {	
         DB::table('item')->delete();
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '1',
         				           'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -109,7 +109,7 @@ class IteneraryItemTableSeeder extends Seeder {
                             A recent archeological breakthrough of the 90s is the discovery of ancient petroglyphs in the mountainside of Angono and Binangonan. The petroglyphs were validated by the National Museum, the UNESCO and KOMOS as one of the oldest in the Asia-Pacific Region. They can be traced back to the third millennium, B.C. It has been declared as aheritage site. The Deaprtment of Tourism in coordination with the National Commission for Culture and the Arts, is now engaged in the development of the site, the protection of the walls from damaged caused by man the elements, and the construction of viewing and rest areas. ',
                            'date' => '2005-07-14');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '2',
                            'name' => 'Forest Park',
                            'review' => '1.2',
@@ -120,7 +120,7 @@ class IteneraryItemTableSeeder extends Seeder {
                             It was my first adventure of the year and I think l learned more about art than in one of my history art classes during college (or maybe because this interested me more than listening to my professor). I really think that a trip to Angono would be a good requirement for art students. But better late than never for me.',
                            'date' => '2014-02-10');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '3',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -129,7 +129,7 @@ class IteneraryItemTableSeeder extends Seeder {
                            Hamaka Park is along the P. Oliveros Street. It has bronze figures of Antipolo’s mark of distinction such as the hamaka tradition, Our Lady of Peace and Good Voyage and town sellers of the city’s major products (suman, kasoy and mangga).',
                            'date' => ' 2012-03-22');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '4',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -160,7 +160,7 @@ class IteneraryItemTableSeeder extends Seeder {
                           A year before the start of the 1896 Revolution, Andres Bonifacio with eight men fled to the mountains of Montalaban, to Pamintinan Cave on a Good Friday. Bonifacio inscribed on the cave wall what could have been the first cry of Philippine Independence. According to the local tourism office, the cave wall still bears the inscription Viva la Independencia Filipinas!The Pamintinan Cave is just one of the several cave systems in the Montalban Gorge. Other caves are said to be where the Japanese soldiers have retreated and spent their last defense during the final days of World War II. A marker by the cave entrance is visible from the trail. Guided tours into the caves are arranged at the Montalban Tourism Office.',
                            'date' => '2010-05-22');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '5',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -172,7 +172,7 @@ class IteneraryItemTableSeeder extends Seeder {
                             Three years after the nursery was built, Valley Golf was opened for play in 1961 and attracted a great traffic of players and aficionados. With this encouraging trend, the club was expanded to accommodate another par-72, 18-hole course on the north in addition to its original south course in 1989.',
                            'date' => '2009-07-02');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '6',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -191,7 +191,7 @@ class IteneraryItemTableSeeder extends Seeder {
                            'date' => '2012-02-04');
     }
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '7',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -203,7 +203,7 @@ class IteneraryItemTableSeeder extends Seeder {
                             My experiencing for exploring Calinawan cave gave me an opportunity to educate myself that some of the caves that have historical relevance aside from being part of the tourist attraction.  It was good to know that this openned my eyes to get to know more about some of the caves in the Philippines.',
                            'date' => '2014-04-02');
 
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '8',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
@@ -211,7 +211,7 @@ class IteneraryItemTableSeeder extends Seeder {
                            'blog' => 'Summer isn’t over, and if you’re regretting you haven’t set your foot on the beach yet, don’t be! Beaches near Metro Manila especially during weekends could be massively crowded, and it is not good though. Well, if you’re just looking for a beach – like – experience just to quench the heat of summer, better find alternative ways to enjoy the season. The refreshingly cold, fresh and surging water of Daranak Falls will surely kill that tempting desire. The Daranak Falls has 14-meter high waterfalls cascading into a deep catch basin that serves as a natural pool which make a perfect summer or even a year - round getaway for everyone. It is concealed on the mountainside of Sierra Madre Mountain Range in the town of Tandang Kutyo, Tanay, Rizal.  Daranak Falls is now becoming popular to locals and tourists because of its accessibility from the Metro Everyone can enjoy the enticing azure cold water of the falls. Rubber tube is available for those non - swimmers who want to relax in the middle of the pool.  Visitors find its pool as perfect for cliff diving, and interested divers will be attended by the local guide for safety. The area is protected by local government and is responsible for maintaining the cleanliness and orderliness of the park. The facility has cottages, souvenir shops and restaurants. Parking lots are available outside the area. Daranak Falls is open daily from 8:00AM – 5:00PM, entrance fee for adult is 20 pesos and 15 pesos for kids. Picnic shed is available for 300 pesos, whereas picnic table is for 150 pesos. Overnight camping is not allowed. All alcoholic beverages are not allowed. ',
                            'date' => '2014-05-12');
     }
-        Item::create(array('itenenaryid' => '1',
+        Item::create(array('itineraryid' => '1',
                            'locationid' => '9',
                            'name' => 'insertnamehere',
                            'review' => '1.2',

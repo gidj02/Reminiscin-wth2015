@@ -16,7 +16,7 @@ Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
 Route::get('/login', ['as' => 'login', 'uses' => 'SessionController@index']);
 Route::post('/storesession', ['as' => 'storesession', 'uses' => 'SessionController@store']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
-Route::get('/itenerary/create/{user}', ['as' => 'createitenerary', 'uses' => 'IteneraryController@create']);
+Route::get('/itinerary/create/{user}', ['as' => 'createitinerary', 'uses' => 'ItineraryController@create']);
 
 Route::resource('user', 'UserController',[
 	'only' => [
@@ -24,7 +24,7 @@ Route::resource('user', 'UserController',[
 	]
 ]);
 
-Route::resource('itenerary', 'IteneraryController',[
+Route::resource('itinerary', 'ItineraryController',[
 	'only' => [
 		'show', 'store'
 	]

@@ -1,9 +1,9 @@
-	<?php
+<?php
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateIteneraryItemTable extends Migration {
+class CreateItineraryTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,16 +12,12 @@ class CreateIteneraryItemTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('item', function(Blueprint $table)
+		Schema::create('itinerary', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->integer('itenenaryid');
-			$table->integer('locationid');
+			$table->integer('userid');
 			$table->string('name');
 			$table->float('review');
-			$table->string('location');
-			$table->string('blog');
-			$table->date('date');
 			$table->timestamps();
 		});
 	}
@@ -33,7 +29,7 @@ class CreateIteneraryItemTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('item');
+		Schema::drop('itinerary');
 	}
 
 }

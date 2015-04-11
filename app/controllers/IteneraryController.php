@@ -1,12 +1,14 @@
 <?php
 
-class IteneraryController extends \BaseController {
+class ItineraryController extends \BaseController {
 
 	protected $user;
+	protected $itinerary;
 
-	public function __construct(User $user)
+	public function __construct(User $user, Itinerary $itinerary)
 	{
 		$this->user = $user;
+		$this->$itinerary = $itinerary;
 	}
 	/**
 	 * Display a listing of the resource.
@@ -27,7 +29,7 @@ class IteneraryController extends \BaseController {
 	public function create($id)
 	{
 		$user = $this->user->find($id);
-		return View::make('page/iteneraryform', compact('user'));
+		return View::make('page/itineraryform', compact('user'));
 	}
 
 
@@ -51,7 +53,8 @@ class IteneraryController extends \BaseController {
 	public function show($id)
 	{
 		$user = $this->user->find($id);
-		return View::make('page/itenerarylist', compact('user'));
+		$itinerary = $this->itinerary->where('userid', '=', $id)->get();
+		return View::make('page/itinerarylist')->withCompact('user', 'itinerary');
 	}
 
 
