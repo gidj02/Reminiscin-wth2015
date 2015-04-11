@@ -38,9 +38,21 @@ class ItineraryController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store($id)
 	{
-		return 'dito na ako store';
+		$validator = Validator::make(Input::all(), Itenerary::$rules);
+
+		if($validator->fails()){
+			return Redirect::route('itenerary.create')->withInput()->withErrors($validator->messages());
+		}
+		else{
+			$itenerary = new Itenerary;
+			$itenerary->name = Input::get('iteneraryname');
+			$itenerary->review = Input::get('description');
+			$itenerary->userid = $id;
+			$itenerary->save();
+		}
+		return Redirect::route('itenerary.');
 	}
 
 
@@ -53,8 +65,8 @@ class ItineraryController extends \BaseController {
 	public function show($id)
 	{ 
 		$user = $this->user->find($id);
-		$itinenary = Itinerary::whereUserid($id)->get();
-		return View::make('page/itinerarylist', compact('user'));
+		$itinerary = Itinerary::whereUserid($id)->get();
+		return View::make('page/itinerarylist', compact('user', 'itinerary'));
 	}
 
 
