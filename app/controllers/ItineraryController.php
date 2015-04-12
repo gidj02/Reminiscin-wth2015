@@ -51,16 +51,24 @@ class ItineraryController extends \BaseController {
 
 		$file = Input::file('fileupload');
 		if($file != NULL){
-			$destinationPath = 'uploads'; // upload path
+			$destinationPath = 'public/img'; // upload path
+			$path = 'img';
 			$extension = $file->getClientOriginalExtension(); // getting image extension
 			$fileName = $file->getClientOriginalName(); // renameing image
 			$upload_success = $file->move($destinationPath, $fileName); // uploading file to given path
 
-        if( $upload_success ) {
-        	return 'success';
-        } else {
-        	return 'fail';
-        }
+	        if( $upload_success ) {
+	        	$itinerary = new Itinerary;
+				$itinerary->name = Input::get('itineraryname');
+				$itinerary->description = Input::get('description');
+				$itinerary->imgurl = $path .'/'. $fileName;
+				$itinerary->userid = Auth::id();
+				$itinerary->save();			
+				
+	        	return Redirect::to('itinerary/' . Auth::id());
+	        } else {
+	        	return Redirect::back()->withInput()->withErrors($validation->messages());
+	        }
     	}
     	else return 'null ';
 	}

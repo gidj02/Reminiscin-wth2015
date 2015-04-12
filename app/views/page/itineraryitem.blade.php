@@ -10,6 +10,8 @@
 	    <ul class="timeline">
 
 	    <?php $x = 0; ?>
+	
+
 	    @foreach($item as $value)
 	    	@if ($x%2 == 0)
 	        <li>
@@ -58,7 +60,27 @@
 	        <?php $x = $x + 1; ?>
 	    @endforeach
 	       
-	         
+	        @if($x == 0)
+	    	<li>
+	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+	          <div class="timeline-panel">
+	            <div class="timeline-heading">
+	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+
+	            </div>
+	            <div class="timeline-body">
+
+	              <p>Hi! You can create your new Itenerary item. You can search a blogs from other users</p>
+
+	            </div>
+
+	            <div class="timeline-footer">
+	                
+	                <h4>Press Create Button</h4><
+	            </div>
+	          </div>
+	        </li>
+	    @endif
 
 	        <li class="clearfix" style="float: none;"></li>
 	    </ul>
