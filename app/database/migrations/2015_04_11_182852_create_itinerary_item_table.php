@@ -20,6 +20,7 @@ class CreateItineraryItemTable extends Migration {
 			$table->float('review');
 			$table->string('location');
 			$table->string('blog');
+			$table->string('imgurl');
 			$table->date('date');
 			$table->timestamps();
 		});

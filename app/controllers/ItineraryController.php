@@ -40,7 +40,25 @@ class ItineraryController extends \BaseController {
 	 */
 	public function store()
 	{
-		return 'dito na ako store';
+		$validator = Validator::make(Input::all(), Itinerary::$rules);
+		
+		if($validator->fails()){
+			return Redirect::route('itenerary.create')->withInput()->withErrors($validator->messages());
+		}
+		else{
+			$destination = public_path() . '\upload\\';
+			$thumb_name = str_random(6).'_'.$thumb->getClientOriginalName;
+			$uploadSuccess = $this_move($destination,$thumb_name);
+			json_encode($destination.$thumb_name);
+			
+			$itenerary = new Itinerary;
+			$itenerary->name = Input::get('iteneraryname');
+			$itenerary->review = Input::get('description');
+			$itenerary->imgurl = $destination . $thumb_name;
+			$itenerary->userid = $id;
+			$itenerary->save();
+		}
+		return Redirect::route('itenerary.');
 	}
 
 
