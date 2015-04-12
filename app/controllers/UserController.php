@@ -44,15 +44,15 @@ class UserController extends \BaseController {
 			return Redirect::route('user.create')->withInput()->withErrors($validator->messages());
 		}
 		else{
-			$user = new User;
-			$user->username = Input::get('username');
-			$user->password = Hash::make(Input::get('password'));
-			$user->firstname = Input::get('firstname');
-			$user->middlename = Input::get('middlename');
-			$user->lastname = Input::get('lastname');
-			$user->email = Input::get('email');
-			$user->contact = Input::get('contact');
-			$user->save();			
+			$users = new User;
+			$users->username = Input::get('username');
+			$users->password = Hash::make(Input::get('password'));
+			$users->firstname = Input::get('firstname');
+			$users->middlename = Input::get('middlename');
+			$users->lastname = Input::get('lastname');
+			$users->email = Input::get('email');
+			$users->contact = Input::get('contact');
+			$users->save();			
 		}
 		return Redirect::route('index');
 	}

@@ -16,7 +16,7 @@
 	@endforeach
 
 	<div class="col-lg-3 col-md-4 col-xs-6 thumb itemter">
-	    <a class="thumbnail" href="{{ URL::to('itinerary/create/' . $value->id) }}" id="additenerary">
+	    <a class="thumbnail" href="{{ URL::to('itinerary/create/' . $user->id) }}" id="additenerary">
 	        <span class="center glyphicon glyphicon-plus addter"></span>
 	    </a>
 	</div>

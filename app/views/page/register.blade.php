@@ -53,9 +53,9 @@
 					</div>
 					<div class='col-xs-12 col-sm-6 col-md-6'>
 						<div class='form-group'>
-							{{ Form::password('password',array('class' => 'form-control input-md', 'placeholder' => 'Confirm Password', 'aria-describedby' => 'basic-addon1')) }}
+							{{ Form::password('password_confirmation',array('class' => 'form-control input-md', 'placeholder' => 'Confirm Password', 'aria-describedby' => 'basic-addon1')) }}
                				<br>	
-							{{ $errors->first('password') }}
+							{{ $errors->first('password_confirmation') }}
 						</div>
 					</div>
 				</div>
