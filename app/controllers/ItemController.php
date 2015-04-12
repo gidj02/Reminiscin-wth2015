@@ -19,7 +19,8 @@ class ItemController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$filter = Input::get('search');
+		return View::make('page/searchresult');
 	}
 
 
