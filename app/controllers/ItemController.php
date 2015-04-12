@@ -96,5 +96,10 @@ class ItemController extends \BaseController {
 		//
 	}
 
+	public function viewItem($id)
+	{
+		return 'view this item';
+	}
+
 
 }

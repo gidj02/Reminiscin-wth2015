@@ -28,7 +28,7 @@
 	            <div class="timeline-footer">
 	                
 	                <a><h4>{{ $value->name }}</h4></a>
-	                <a class="btn btn-small btn-info" href="">Continue Reading	</a>
+	                <a class="btn btn-small btn-info" href="{{ URL::to('itinerary/view/item/' . $value->id') }}">Continue Reading	</a>
 	            </div>
 	          </div>
 	        </li>
@@ -50,7 +50,7 @@
 	            <div class="timeline-footer">
 	                
 	                <a><h4>{{ $value->name }}</h4></a>
-	                <a class="btn btn-small btn-info" href="">Continue Reading</a>
+	                <a class="btn btn-small btn-info" href="{{ URL::to('itinerary/view/item/' . $value->id') }}">Continue Reading</a>
 	            </div>
 	          </div>
 	        </li>
