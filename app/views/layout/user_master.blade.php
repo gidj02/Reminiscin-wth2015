@@ -13,7 +13,7 @@
 	            	</ul>
 	                <ul class="nav navbar-nav navbar-left">
 	                	<li class="active"><a href="{{ route('index') }}">WTH2015</a></li>
-	                    	<li><a href="#">Show Itenerary</a></li>
+	                    	<li><a href="{{ URL::to('itenerary/' . Auth::id()) }}">Show Itenerary</a></li>
 	                </ul>
 	            </div>
 	        </div>
