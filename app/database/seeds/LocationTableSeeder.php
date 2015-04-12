@@ -11,13 +11,11 @@ class LocationTableSeeder extends Seeder {
                         				   'location' => 'Angono, Rizal, Philippines',
                         				   'description' => 'The town of Angono is known for the Higantes Festival and for its admirable artworks of extraordinarily talented artists. It is the home town of the two great National Artists of the Philippines, Carlos “Botong” Francisco for visual arts and Maestro and Lucio San Pedro for music, who have inspired generations of artists to create numerous works in varied styles of artistic expressions
                                              There are a number of art galleries and studios within the town which makes Angono the Art Capital of the Philippines. These are the Blanco Family Museum, Nemiranda Arthouse & Gallery, Tiamson Art Gallery, Ang Nuno Artists Foundation Gallery, Village Artists Gallery, Juban Studios, Vicente Reyes Art Studio, the Second Gallery and the Angono Ateliers Gallery.'));
-<<<<<<< HEAD
-=======
 
         Location::create(array('name' => 'World Sikaran/Arnis Brotherhood of the Philippines, 20 Katipunan St., Baras, Rizal',
                                    'location' => 'Angono, Rizal, Philippines',
                                    'description' => 'Sikaran/Arnis is a foot game/sword play and is a combination of two kinds of martial arts that are uniquely Filipino. In Sikaran, the players move around like boxers. Each one aims to knock his opponent down by kicking the latter’s legs. The kicks are delivered with considerable force and agility, and sudden upward and backward movements of the foot. The use of the feet is necessary in winning over the opponent; thus, the name “sikaran” which means “to kick” came about. In arnis, the players use rattan or a wooden stick and strike each other’s sticks. The player who is able to touch his opponent’s body first with the point of his wooden stick or force him to drop his weapon is declared winner.'));
->>>>>>> e946c0e7e48d2ba06305dcf0ed62c04f86bee7b7
+
         
         Location::create(array('name' => 'Angono Forest Park, Angono, Rizal',
                                     'location' => 'Angono, Rizal, Philippines',
