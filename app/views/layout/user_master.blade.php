@@ -23,14 +23,13 @@
 		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      		<ul class="nav navbar-nav">
 		        		<li class="active"><a href="{{ route('index') }}">WTH2015</a></li>
-		        		<li ><a href="{{ route('user.create') }}">Register</a></li>
 		      		</ul>
 
 		      		<ul class="nav navbar-nav navbar-right">
 		        		<li>
 		            		{{ Form::open(['route' => 'search', 'class' => 'navbar-form navbar-left', 'role' => 'search']) }}
-		           			<div class="form-group">
-					        	<input type="text" class="form-control" placeholder="Search">
+		           			<div class="form-group">	
+		           				{{ Form::text('search', '', array('class' => 'form-control', 'placeholder' => 'Search'))}}
 					        </div>
 					        <button type="submit" class="btn btn-success">Submit</button>
 		           			{{ Form::close() }}
@@ -45,6 +44,8 @@
 		      		</ul>
 		    	</div>
 	  		</div>
+		</nav>
+		</div>
 		</nav>
 
 	@yield('contents')
