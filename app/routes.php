@@ -12,13 +12,14 @@
 */
 
 Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
-Route::post('/item/create', ['as' => 'itemcreate', 'uses' => 'ItemController@create']);
+Route::post('/item/create/{id}', ['as' => 'itemcreate', 'uses' => 'ItemController@create']);
 Route::get('/login', ['as' => 'login', 'uses' => 'SessionController@index']);
 Route::post('/storesession', ['as' => 'storesession', 'uses' => 'SessionController@store']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
 Route::get('/itinerary/create/{user}', ['as' => 'createitinerary', 'uses' => 'ItineraryController@create']);
 Route::post('/search/item', ['as' => 'search', 'uses' => 'ItemController@index']);
 Route::get('/itinerary/view/item/{item}', ['as' => 'view', 'uses' => 'ItemController@viewItem']);
+Route::get('/item/store/{id}', ['as' => 'itemstore', 'uses' => 'ItemController@store']);
 
 Route::resource('user', 'UserController',[
 	'only' => [
@@ -34,7 +35,7 @@ Route::resource('itinerary', 'ItineraryController',[
 
 Route::resource('item', 'ItemController',[
 	'only' => [
-		'show', 'store'
+		'show'
 	]
 ]);
 

@@ -9,7 +9,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
 				           'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Montalban, Rizal, Philippines',
                            'blog' => '
                             Angono is home to many of the country?s great artists
@@ -110,7 +110,6 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'Forest Park',
-                           'review' => '1.2',
                            'location' => 'Angono, Rizal, Philippines',
                            'blog' => '
                             When I alighted the tricycle, I was worried that the Forest Park might be closed because the old lady that I met at the entrance told me that there was a council meeting. She also asked if I was there for a photo shoot and I replied that I was just touring around. I also asked if there was an entrance fee as it was stated on the sign outside but she told me there was no need for me to pay.It was such a treat for me to talk to the old lady (I didn’t get her name) because she told me a little about the park and that there were steps at the back. She also told me how many steps there were and according to the kids who play there, it’s 77 steps.When I got to the end of the steps, it took me to a road. It was so quiet up there. The old lady mentioned to me that there was a retreat house at the end of the road. But I didn’t go that far for fear that I’d get even more lost. So while the retreat house was up, I went down the road to go back to the entrance of the park. I went back in and had a little chat again with the old lady and walked around for a bit before leaving. I went home feeling really good about myself because I gained a bit of confidence while asking for directions. I took the tricycle back to the plaza for P10 and waited for an FX by the main road. Good thing I asked the FX driver earlier that day on where to wait unless I would’ve been lost. I spent a total of P342 going there and home. Not bad. The people were so accommodating and I’m glad that nothing bad happened to me. Next adventure, I’m dragging someone along.
@@ -120,7 +119,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => '
                            Hamaka Park is along the P. Oliveros Street. It has bronze figures of Antipolo’s mark of distinction such as the hamaka tradition, Our Lady of Peace and Good Voyage and town sellers of the city’s major products (suman, kasoy and mangga).',
@@ -128,7 +127,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Montalban, Rizal, Philippines',
                            'blog' => '
                            While the Wawa River cuts through the primeval rock after the thousand-year process of erosion to form the majestic limestone walls, there is also the local folklore which tells that the Montalban Gorge was created by the mighty Bernardo Carpio.
@@ -158,7 +157,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'At the rolling hills of Antipolo, Rizal is Valley Golf & Country Club, Inc., a private and non-profit club organized in 1958 by a group of businessmen headed by the late Don Celso S. Tuason. In the same year the Securities and Exchange Commission authorized an initial offering of 1,800 shares to the public at P10,000.00 per share. To date 1,588 shares have been sold and subscribed.
 
@@ -169,7 +168,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'It is a National Park but sad to say, this natural beauty was not properly valued. I was already warned by my aunt about the environmental damage it has undergone due to the carelessness of the inhabitants near it. Yet I still wanted to go and see for myself so I got prepared for the stench (as most feedbacks say it has). 
 
@@ -187,7 +186,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'I have never been to any caves at all since I started blogging about my travel experience and what made me to become interested about the caves because I have read a blog about Calinawan Cave.  This cave is situated at Tanay, Rizal, a nearby town from where I live -  Cainta.  Tanay is just one hour and a half jeepney ride from our place.  The province of Rizal was the easiest way to jaunt as it didn\'t require me to take a long trip because it\'s just a nearby town. The trip to Calinawan Cave had not required me to make plans for my itinerary ahead of time, unlike from my previous travel,  because Rizal was ideal for me as it doesn\'t involve spending too much budget nor it calls me to stay overnight.The jump-off starts from Tanay market where jeepneys and tricycle terminal is located and it begins after we took our late lunch to the market by asking the carinderia owner where we could take a ride going to Calinawan.  But beforehand I had an idea already based from what I have read from the blog as this could avoid us from overcharging the fare by some the drivers.  For a reasonable fee of 300 pesos the trike driver explained that the fee is good for two-way trip, and he had to wait for the entire journey because there’s no available trip going back to the town proper of Tanay.First we stopped to the nearby Grotto before the journey to Calinawan cave went on to the uphills and rough road until we reached Baranggay Katyo where the cave is located.  Daranak falls belongs to the same barangay and is not far away from Calinawan cave. According to the tour guide Senz, Calinawan cave is a hub for some movies like Third Eye, Dyesebel which stars Alice Dixson, Jackie Chan which I forgot the movies he mentioned to me.
 
@@ -198,14 +197,14 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'Summer isn’t over, and if you’re regretting you haven’t set your foot on the beach yet, don’t be! Beaches near Metro Manila especially during weekends could be massively crowded, and it is not good though. Well, if you’re just looking for a beach – like – experience just to quench the heat of summer, better find alternative ways to enjoy the season. The refreshingly cold, fresh and surging water of Daranak Falls will surely kill that tempting desire. The Daranak Falls has 14-meter high waterfalls cascading into a deep catch basin that serves as a natural pool which make a perfect summer or even a year - round getaway for everyone. It is concealed on the mountainside of Sierra Madre Mountain Range in the town of Tandang Kutyo, Tanay, Rizal.  Daranak Falls is now becoming popular to locals and tourists because of its accessibility from the Metro Everyone can enjoy the enticing azure cold water of the falls. Rubber tube is available for those non - swimmers who want to relax in the middle of the pool.  Visitors find its pool as perfect for cliff diving, and interested divers will be attended by the local guide for safety. The area is protected by local government and is responsible for maintaining the cleanliness and orderliness of the park. The facility has cottages, souvenir shops and restaurants. Parking lots are available outside the area. Daranak Falls is open daily from 8:00AM – 5:00PM, entrance fee for adult is 20 pesos and 15 pesos for kids. Picnic shed is available for 300 pesos, whereas picnic table is for 150 pesos. Overnight camping is not allowed. All alcoholic beverages are not allowed. ',
                            'date' => '2014-05-12'));
     
         Item::create(array('itineraryid' => '1',
                            'name' => 'insertnamehere',
-                           'review' => '1.2',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => ' I am always fascinated by the mysticism of the church the moment I set my feet off to some of the captivating places I have visited in the past.  The church always appeals me because some of them have a historical relevance attached to a place as the church exists for more than hundred years old.  As landmark to every town, the church also serves as a sign that you have gotten the place.  The gritty look of the old church reminds us that we were colonized by Spain and it was of the different orders who brought Christianity to our country.
                             I had a short trip yesterday and made a visit to St. Joseph Parish church in Baras, Rizal.  Known as Baras church by the locals, the structure was built 300 years ago.  The Franciscan built the original church in 1595.  The dimly-lit cold interior is more interesting as the hall is accented by the large golden altar of the images of saints, and the rough timber beams gave most of the rustic feel of the church.  It is vintage plain and simple, and the look has a strong character that conveys its historical background.There was a graduation event going on at the vicinity of Baras Church and what I had to do is to leave the place as early as I can.  There were vendors outside selling some foods and what caught my attention was the ice scramble as it was very hot due to summer season.Going to Baras Church is easy and you can take jeepneys bound for Tanay, Rizal.  Ask the driver to drop you off to the Municipal Hall and a 5-minute walk uphill to the church.  Travel time depends on where you came from.  From Cainta, Ortigas extension, it’s more or less one and a half travel time if you are taking a jeepney ride.',

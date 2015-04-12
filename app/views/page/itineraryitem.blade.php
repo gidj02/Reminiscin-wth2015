@@ -18,7 +18,7 @@
 	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+	              <img class="img-responsive" src="{{ '../' .	$value->imgurl }}" />
 
 	            </div>
 	            <div class="timeline-body">
@@ -41,7 +41,7 @@
 	          <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
 	          <div class="timeline-panel">
 	            <div class="timeline-heading">
-	              <img class="img-responsive" src="http://lorempixel.com/1600/500/sports/2" />
+	              <img class="img-responsive" src="{{ '../' .	$value->imgurl }}" />
 
 	            </div>
 	            <div class="timeline-body">
@@ -85,7 +85,7 @@
 	        <li class="clearfix" style="float: none;"></li>
 	    </ul>
 
-	    {{ Form::open(['route' => 'itemcreate']) }}
+	    {{ Form::open(array('url' => 'item/create/' . $itinerary->id)) }}
 	    {{ Form::submit('Add Item', array('class' => 'btn btn-block btn-warning')) }}
 		{{ Form::close() }}
 	</div>

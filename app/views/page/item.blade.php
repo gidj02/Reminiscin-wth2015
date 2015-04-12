@@ -10,30 +10,36 @@
 		        <div class="col-lg-12 col-sm-6 col-md-6">
 		            <div class="well well-sm">
 		                <div class="row">
-		                	<!-- Image for Itinerary -->
-		                    <div class="col-sm-6 col-md-4">
-		                        <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+		                	 <div class="col-sm-6 col-md-4">
+		                        <!-- <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" /> -->
+		                        <!-- {{ Form::file('upload', array('id' => 'btnupload', 'class' => 'form-control btn btn-warning dropzone')) }} -->
+		                        {{ Form::open(array('url' => 'item/store/' . $id, 'class' => 'dropzone', 'id' => 'my-awesome-dropzone', 'enctype' => 'multipart/form-data', 'method' => 'post')) }}
+								{{ Form::file('fileupload') }}      
+								{{ $errors->first('fileupload') }}      
 		                    </div>
 		                    <!-- End Image for Itinerary -->
 		                    <div class="col-sm-6 col-md-8">
 		                        <!-- Text fields  -->
 					  			<div class="row">
-									<div class="form-group">
+									 
 						              		{{ Form::text('name', '',  array('placeholder' => 'Name of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
 											{{ $errors->first('name') }}
-						            </div>
-					  			</div>
-                                <div class="row">
-									<div class="form-group">
-						              		{{ Form::text('location', '',  array('placeholder' => 'Location of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1') ) }}
-											{{ $errors->first('location') }}
-						            </div>
 					  			</div>
 					  			<div class="row">
-									<div class="form-group">
-						              		{{ Form::textarea('description', '',  array('placeholder' => 'Blog' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
-											{{ $errors->first('description') }}
-						            </div>
+									 
+						              		{{ Form::text('location', '',  array('placeholder' => 'Location of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
+											{{ $errors->first('location') }}
+					  			</div>
+					  			<div class="row">
+									 
+						              		{{ Form::text('date', '',  array('placeholder' => 'Date of your adventure' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
+											{{ $errors->first('date') }}
+					  			</div>
+                                
+					  			<div class="row">
+									 
+						              		{{ Form::textarea('blog', '',  array('placeholder' => 'Blog' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
+											{{ $errors->first('blog') }}
 					  			</div>
 								<!-- End of End Items -->
 								<!-- End of Iterinary Items -->

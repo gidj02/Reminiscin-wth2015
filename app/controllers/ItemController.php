@@ -30,9 +30,9 @@ class ItemController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function create($id)
 	{
-		return View::make('page/item');
+		return View::make('page/item', compact('id'));
 	}
 
 
@@ -41,9 +41,41 @@ class ItemController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store($id)
 	{
-		//
+		$input = Input::all();
+
+		$validation = Validator::make($input,Item::$rules);
+
+		if ($validation->fails())
+		{
+			return Redirect::back()->withInput()->withErrors($validation->messages());
+		}
+
+		$file = Input::file('fileupload');
+		if($file != NULL){
+			$destinationPath = 'public/img/item'; // upload path
+			$path = 'img/item';
+			$extension = $file->getClientOriginalExtension(); // getting image extension
+			$fileName = $file->getClientOriginalName(); // renameing image
+			$upload_success = $file->move($destinationPath, $fileName); // uploading file to given path
+
+	        if( $upload_success ) {
+	        	$item = new Item;
+				$item->name = Input::get('itineraryname');
+				$item->location = Input::get('description');
+				$item->blog = $path .'/'. $fileName;
+				$item->date = Auth::id();
+				$item->imgurl = $path .'/'. $fileName;
+				$item->itineraryid = $id;
+				$item->save();			
+				
+	        	return Redirect::to('itinerary/' . Auth::id());
+	        } else {
+	        	return Redirect::back()->withInput()->withErrors($validation->messages());
+	        }
+    	}
+    	else return 'null ';
 	}
 
 
@@ -98,6 +130,6 @@ class ItemController extends \BaseController {
 
 	public function viewItem($id)
 	{
-		return 'view this item';
+		return View::make('page/item');
 	}
 }
