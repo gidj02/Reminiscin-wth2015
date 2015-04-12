@@ -9,9 +9,16 @@
 <div class="row">
     @foreach($item as $value)
     <div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
-        <a class="thumbnail" href="{{ URL::to('itinerary/view/item/' . $value->id) }}">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-        </a>
+        <div class="panel panel-default">
+        	<div class="panel-body">
+        		<a class="thumbnail" href="{{ URL::to('itinerary/view/item/' . $value->id) }}">
+            		<img class="img-responsive" src="{{ '/../' . $value->imgurl }}" alt="">
+        		</a>
+        	</div>
+        	<div class="panel-footer">
+        		<h5>{{ $value->name }}</h5>
+        	</div>
+        </div>
     </div>
     @endforeach
 </div>

@@ -127,7 +127,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => ' 2012-03-22'));
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'Wawa Dam',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Montalban, Rizal, Philippines',
                            'blog' => '
@@ -157,7 +157,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2010-05-22  '));
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'Rolling Hills',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'At the rolling hills of Antipolo, Rizal is Valley Golf & Country Club, Inc., a private and non-profit club organized in 1958 by a group of businessmen headed by the late Don Celso S. Tuason. In the same year the Securities and Exchange Commission authorized an initial offering of 1,800 shares to the public at P10,000.00 per share. To date 1,588 shares have been sold and subscribed.
@@ -168,7 +168,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2009-07-02'));
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'National Park',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'It is a National Park but sad to say, this natural beauty was not properly valued. I was already warned by my aunt about the environmental damage it has undergone due to the carelessness of the inhabitants near it. Yet I still wanted to go and see for myself so I got prepared for the stench (as most feedbacks say it has). 
@@ -186,7 +186,7 @@ class ItineraryItemTableSeeder extends Seeder {
     
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'Calinawan cave',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'I have never been to any caves at all since I started blogging about my travel experience and what made me to become interested about the caves because I have read a blog about Calinawan Cave.  This cave is situated at Tanay, Rizal, a nearby town from where I live -  Cainta.  Tanay is just one hour and a half jeepney ride from our place.  The province of Rizal was the easiest way to jaunt as it didn\'t require me to take a long trip because it\'s just a nearby town. The trip to Calinawan Cave had not required me to make plans for my itinerary ahead of time, unlike from my previous travel,  because Rizal was ideal for me as it doesn\'t involve spending too much budget nor it calls me to stay overnight.The jump-off starts from Tanay market where jeepneys and tricycle terminal is located and it begins after we took our late lunch to the market by asking the carinderia owner where we could take a ride going to Calinawan.  But beforehand I had an idea already based from what I have read from the blog as this could avoid us from overcharging the fare by some the drivers.  For a reasonable fee of 300 pesos the trike driver explained that the fee is good for two-way trip, and he had to wait for the entire journey because there’s no available trip going back to the town proper of Tanay.First we stopped to the nearby Grotto before the journey to Calinawan cave went on to the uphills and rough road until we reached Baranggay Katyo where the cave is located.  Daranak falls belongs to the same barangay and is not far away from Calinawan cave. According to the tour guide Senz, Calinawan cave is a hub for some movies like Third Eye, Dyesebel which stars Alice Dixson, Jackie Chan which I forgot the movies he mentioned to me.
@@ -197,14 +197,14 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2014-04-02'));
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'Beach',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => 'Summer isn’t over, and if you’re regretting you haven’t set your foot on the beach yet, don’t be! Beaches near Metro Manila especially during weekends could be massively crowded, and it is not good though. Well, if you’re just looking for a beach – like – experience just to quench the heat of summer, better find alternative ways to enjoy the season. The refreshingly cold, fresh and surging water of Daranak Falls will surely kill that tempting desire. The Daranak Falls has 14-meter high waterfalls cascading into a deep catch basin that serves as a natural pool which make a perfect summer or even a year - round getaway for everyone. It is concealed on the mountainside of Sierra Madre Mountain Range in the town of Tandang Kutyo, Tanay, Rizal.  Daranak Falls is now becoming popular to locals and tourists because of its accessibility from the Metro Everyone can enjoy the enticing azure cold water of the falls. Rubber tube is available for those non - swimmers who want to relax in the middle of the pool.  Visitors find its pool as perfect for cliff diving, and interested divers will be attended by the local guide for safety. The area is protected by local government and is responsible for maintaining the cleanliness and orderliness of the park. The facility has cottages, souvenir shops and restaurants. Parking lots are available outside the area. Daranak Falls is open daily from 8:00AM – 5:00PM, entrance fee for adult is 20 pesos and 15 pesos for kids. Picnic shed is available for 300 pesos, whereas picnic table is for 150 pesos. Overnight camping is not allowed. All alcoholic beverages are not allowed. ',
                            'date' => '2014-05-12'));
     
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'St. Joseph Paris',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => ' I am always fascinated by the mysticism of the church the moment I set my feet off to some of the captivating places I have visited in the past.  The church always appeals me because some of them have a historical relevance attached to a place as the church exists for more than hundred years old.  As landmark to every town, the church also serves as a sign that you have gotten the place.  The gritty look of the old church reminds us that we were colonized by Spain and it was of the different orders who brought Christianity to our country.
