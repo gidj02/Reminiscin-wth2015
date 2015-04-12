@@ -76,7 +76,7 @@
 
 	            <div class="timeline-footer">
 	                
-	                <h4>Press Create Button</h4><
+	                <h4>Press Add Item Button</h4>
 	            </div>
 	          </div>
 	        </li>
