@@ -111,5 +111,15 @@ class ItineraryController extends \BaseController {
 		//
 	}
 
+	/**
+	 * Remove the specified resource from storage.
+	 *
+	 * @param 
+	 * @return Response
+	 */
+	public function upload()
+	{
+		//
+	}
 
 }

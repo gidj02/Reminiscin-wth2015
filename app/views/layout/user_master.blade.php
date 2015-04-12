@@ -4,6 +4,8 @@
 		<title> User Page </title>
 		{{ HTML::style('css/bootstrap.min.css')}}
 		{{ HTML::style('css/styles.css')}}
+		{{ HTML::style('dropzone-4.0.1/dist/min/basic.min.css')}}
+		{{ HTML::style('dropzone-4.0.1/dist/min/dropzone.min.css')}}
 	</head>
 		<body>
 	 	<nav class="navbar navbar-inverse navbar-fixed">
@@ -23,6 +25,7 @@
 		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      		<ul class="nav navbar-nav">
 		        		<li class="active"><a href="{{ route('index') }}">WTH2015</a></li>
+		        		<li><a href="{{ URL::to('itinerary/' . Auth::id()) }}">Show Itinerary</a></li>
 		      		</ul>
 
 		      		<ul class="nav navbar-nav navbar-right">
@@ -54,4 +57,5 @@
 		{{ HTML::script('js/jquery.min.js') }}
 		{{ HTML::script('js/bootstrap.min.js') }}
 		{{ HTML::script('js/script.js') }}
-		{{ HTML::script('js/dropzone.js') }}
+		{{ HTML::style('dropzone-4.0.1/dist/min/dropzone.min.js')}}
+		{{ HTML::style('dropzone-4.0.1/dist/min/dropzone-amd-module.min.js')}}
