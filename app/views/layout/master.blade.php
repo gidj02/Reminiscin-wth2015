@@ -13,6 +13,23 @@
 	                	<li ><a href="{{ route('user.create') }}">Register</a></li>
 	                </ul>
 	                 <ul class="nav navbar-nav navbar-right">
+	                 {{ Form::open(['route' => 'search']) }}
+	            			
+            			<!-- <li>{{ Form::submit('Search', array('class' => 'btn btn-block btn-warning')) }}</li>::
+	            		<li>{{ Form::text('search', '', array('placeholder' => 'Search' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}</li>
+	            			{{ Form::close() }} -->
+	            		<li>
+						        <div class="col-md-10 col-md-offset-3">
+						            <form action="" class="search-form">
+						                <div class="form-group has-feedback">																																								
+						            		<label for="search" class="sr-only">Search</label>
+						            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+						              		<span class="glyphicon glyphicon-search form-control-feedback"></span>																																																														
+						            	</div>
+						            </form>
+						        </div>
+						</li>
+						{{ Form::close() }}
 	                	<li><a href="{{ route('login') }}">Login</a></li>
 	                </ul>
 	            </div>
