@@ -7,7 +7,6 @@
 			Welcome to the sample user maintenance.
 		</div>
 	</div>
-
 	
 	
 @stop

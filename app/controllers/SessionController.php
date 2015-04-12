@@ -21,7 +21,7 @@ class SessionController extends \BaseController {
  			return View::make('page/login');
 		}
 
-		return View::make('page/home');
+		return View::make('page/itenerarylist');
 	}
 
 
