@@ -6,7 +6,7 @@
 		    <div class='login-panel panel panel-default'>
 				<div class='panel-heading'><h1> Login User </h1></div>
 				<div class='panel-body'>
-					{{ Form::open(['route' => 'storesession']) }}
+					{{ Form::open(['route' => 'search']) }}
 					<fieldset>
 			  			<div class='form-group'>
 			              		{{ Form::text('username', '', array('placeholder' => 'Username' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}

@@ -17,7 +17,7 @@ Route::get('/login', ['as' => 'login', 'uses' => 'SessionController@index']);
 Route::post('/storesession', ['as' => 'storesession', 'uses' => 'SessionController@store']);
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
 Route::get('/itinerary/create/{user}', ['as' => 'createitinerary', 'uses' => 'ItineraryController@create']);
-
+Route::post('/search/item', ['as' => 'search', 'uses' => 'ItemController@index']);
 Route::resource('user', 'UserController',[
 	'only' => [
 		'edit', 'update', 'destroy', 'create', 'store'
@@ -35,3 +35,4 @@ Route::resource('item', 'ItemController',[
 		'show', 'store'
 	]
 ]);
+
