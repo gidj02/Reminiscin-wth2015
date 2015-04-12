@@ -8,7 +8,7 @@ class ItineraryItemTableSeeder extends Seeder {
         DB::table('item')->delete();
 
         Item::create(array('itineraryid' => '1',
-        				           'name' => 'insertnamehere',
+				           'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Montalban, Rizal, Philippines',
                            'blog' => '
