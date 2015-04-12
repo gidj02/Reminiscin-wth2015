@@ -40,13 +40,13 @@ class ItineraryController extends \BaseController {
 	 */
 	public function store($id)
 	{
-		$validator = Validator::make(Input::all(), Itenerary::$rules);
+		$validator = Validator::make(Input::all(), Itinerary::$rules);
 
 		if($validator->fails()){
 			return Redirect::route('itenerary.create')->withInput()->withErrors($validator->messages());
 		}
 		else{
-			$itenerary = new Itenerary;
+			$itenerary = new Itinerary;
 			$itenerary->name = Input::get('iteneraryname');
 			$itenerary->review = Input::get('description');
 			$itenerary->userid = $id;
