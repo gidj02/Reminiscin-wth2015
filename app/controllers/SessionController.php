@@ -16,12 +16,7 @@ class SessionController extends \BaseController {
 	 */
 	public function index()
 	{
-		if(!Auth::check())
-		{
- 			return View::make('page/login');
-		}
-
-		return View::make('page/itenerarylist');
+		return View::make('page/login');		
 	}
 
 
@@ -56,7 +51,7 @@ class SessionController extends \BaseController {
 		if(Auth::attempt(['username' => $inputs['username'], 'password' => $inputs['password']]))
 		{
 			echo "<script type='text/javascript'>alert('Logged in!');</script>";
-			return Redirect::route('login');		
+			return Redirect::route('index');		
 		}
 
         return Redirect::route('login')->withInput();

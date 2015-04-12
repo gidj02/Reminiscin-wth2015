@@ -3,7 +3,6 @@
 		<title> WTH2015 </title>
 		{{ HTML::style('css/bootstrap.min.css')}}
 		{{ HTML::style('css/styles.css')}}
-
 	</head>
 		<body>
 	 	<nav class="navbar navbar-inverse navbar-fixed">
