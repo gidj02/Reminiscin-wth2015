@@ -1,3 +1,4 @@
+<!DOCTYPE>
 <html>
 	<head>
 		<title> WTH2015 </title>
@@ -24,14 +25,6 @@
 	      		</ul>
 
 	      		<ul class="nav navbar-nav navbar-right">
-	        		<li>
-	            		{{ Form::open(['route' => 'search', 'class' => 'navbar-form navbar-left', 'role' => 'search']) }}
-	           			<div class="form-group">
-				        	<input type="text" class="form-control" placeholder="Search">
-				        </div>
-				        <button type="submit" class="btn btn-success">Submit</button>
-	           			{{ Form::close() }}
-	        		</li>
 	       			<li><a href="{{ route('login') }}">Login</a></li>
 	      		</ul>
 	    	</div>
