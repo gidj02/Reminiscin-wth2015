@@ -1,11 +1,11 @@
-@extend('layout.user_master')
+@extends	('layout.user_master')
 @section('contents')
 
 <div class="row">
 	<div class="container">
 		<!-- Start of time line -->
 	    <div class="page-header text-center">
-	        <h1 id="timeline">Timeline 2.1</h1>
+	        <h1 id="timeline"><small>Welcome to your </small><br>{{ $itinerary->name }} </h1>
 	    </div>
 	    <ul class="timeline">
 	        <li>
