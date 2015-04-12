@@ -18,7 +18,7 @@ Route::post('/storesession', ['as' => 'storesession', 'uses' => 'SessionControll
 Route::get('/logout', ['as' => 'logout', 'uses' => 'SessionController@destroy']);
 Route::get('/itinerary/create/{user}', ['as' => 'createitinerary', 'uses' => 'ItineraryController@create']);
 Route::post('/search/item', ['as' => 'search', 'uses' => 'ItemController@index']);
-Route::post('itinerary/view/item/{item}', ['as' => 'view', 'uses' => 'ItemController@viewItem']);
+Route::get('/itinerary/view/item/{item}', ['as' => 'view', 'uses' => 'ItemController@viewItem']);
 
 Route::resource('user', 'UserController',[
 	'only' => [
