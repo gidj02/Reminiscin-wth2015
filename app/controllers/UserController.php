@@ -27,7 +27,7 @@ class UserController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('page/signup');
+		return View::make('page/register');
 	}
 
 
