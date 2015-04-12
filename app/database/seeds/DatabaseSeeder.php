@@ -12,7 +12,7 @@ class DatabaseSeeder extends Seeder {
 		Eloquent::unguard();
 		
 		$this->call('UserTableSeeder');
-		$this->call('IteneraryItemTableSeeder');
+		$this->call('LocationTableSeeder');
 	}
 
 }
