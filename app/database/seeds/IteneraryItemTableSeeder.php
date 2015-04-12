@@ -172,8 +172,54 @@ class IteneraryItemTableSeeder extends Seeder {
                             Three years after the nursery was built, Valley Golf was opened for play in 1961 and attracted a great traffic of players and aficionados. With this encouraging trend, the club was expanded to accommodate another par-72, 18-hole course on the north in addition to its original south course in 1989.',
                            'date' => '2009-07-02');
 
+        Item::create(array('itenenaryid' => '1',
+                           'locationid' => '6',
+                           'name' => 'insertnamehere',
+                           'review' => '1.2',
+                           'location' => 'Antipolo City, Philippines',
+                           'blog' => 'It is a National Park but sad to say, this natural beauty was not properly valued. I was already warned by my aunt about the environmental damage it has undergone due to the carelessness of the inhabitants near it. Yet I still wanted to go and see for myself so I got prepared for the stench (as most feedbacks say it has). 
+
+                            It was a long journey to the location and upon arriving, I had the first impression of “dilapidation”. It was in seclusion and I can imagine an eerie atmosphere when evening comes. The rusty gate with the sign “Entrance Fee: 8 pesos” and the moss-covered walls welcomed us. But when I entered, nature unfolded. I heard the faint sound of the falls, but to my surprise, I could smell no stench at all. As I descended on a flight of stairs, the ‘ssshh’ sound of the water falling amongst the rocks grew louder and louder. I reached the foot and the Hinulugang Taktak loomed into view...It was a beautiful site. Breath-taking! Ecstatic! 
+                            The only flaw I’ve noticed is the chocolate-colored water at the base of the falls. (that reminded me of Milo or Chuckie. He-he-he) But my aunt said, maybe it was because of the hard rain on the previous day. 
+
+
+                            I hope that’s true. And I hope that the people there got ‘renewed’, enlightened about its value. 
+                            The Hinulugang Taktak is currently trying to recover. 
+
+                            And this serves as our calling to fulfil our duty as nature’s ambassadors. 
+                            Support and protect the world. Save mother earth.',
+                           'date' => '2012-02-04');
     }
 
+        Item::create(array('itenenaryid' => '1',
+                           'locationid' => '7',
+                           'name' => 'insertnamehere',
+                           'review' => '1.2',
+                           'location' => 'Antipolo City, Philippines',
+                           'blog' => 'I have never been to any caves at all since I started blogging about my travel experience and what made me to become interested about the caves because I have read a blog about Calinawan Cave.  This cave is situated at Tanay, Rizal, a nearby town from where I live -  Cainta.  Tanay is just one hour and a half jeepney ride from our place.  The province of Rizal was the easiest way to jaunt as it didn\'t require me to take a long trip because it\'s just a nearby town. The trip to Calinawan Cave had not required me to make plans for my itinerary ahead of time, unlike from my previous travel,  because Rizal was ideal for me as it doesn\'t involve spending too much budget nor it calls me to stay overnight.The jump-off starts from Tanay market where jeepneys and tricycle terminal is located and it begins after we took our late lunch to the market by asking the carinderia owner where we could take a ride going to Calinawan.  But beforehand I had an idea already based from what I have read from the blog as this could avoid us from overcharging the fare by some the drivers.  For a reasonable fee of 300 pesos the trike driver explained that the fee is good for two-way trip, and he had to wait for the entire journey because there’s no available trip going back to the town proper of Tanay.First we stopped to the nearby Grotto before the journey to Calinawan cave went on to the uphills and rough road until we reached Baranggay Katyo where the cave is located.  Daranak falls belongs to the same barangay and is not far away from Calinawan cave. According to the tour guide Senz, Calinawan cave is a hub for some movies like Third Eye, Dyesebel which stars Alice Dixson, Jackie Chan which I forgot the movies he mentioned to me.
+
+                            The cave has 7 layers as our tour guide explained; the first and the second layer is easy to explore which is approximately 150 meters walk between the entrance and exit point.  The third to fifth layer is hard as it involves crawling; the sixth and the seventh layer connects to Montalban, Rizal and it takes approximately 9 days to explore.  This was an interesting story from our guide as someone made it to have reached the Montalban exit.  Calinawan cave once served as stronghold for the revolutionaries during the Spanish, American and Japanese occupation. It will take around 30-45 minutes to explore the cold cave.  Steps have to be watched carefully and it has a low ceiling through the passages.
+
+                            My experiencing for exploring Calinawan cave gave me an opportunity to educate myself that some of the caves that have historical relevance aside from being part of the tourist attraction.  It was good to know that this openned my eyes to get to know more about some of the caves in the Philippines.',
+                           'date' => '2014-04-02');
+
+        Item::create(array('itenenaryid' => '1',
+                           'locationid' => '8',
+                           'name' => 'insertnamehere',
+                           'review' => '1.2',
+                           'location' => 'Antipolo City, Philippines',
+                           'blog' => 'Summer isn’t over, and if you’re regretting you haven’t set your foot on the beach yet, don’t be! Beaches near Metro Manila especially during weekends could be massively crowded, and it is not good though. Well, if you’re just looking for a beach – like – experience just to quench the heat of summer, better find alternative ways to enjoy the season. The refreshingly cold, fresh and surging water of Daranak Falls will surely kill that tempting desire. The Daranak Falls has 14-meter high waterfalls cascading into a deep catch basin that serves as a natural pool which make a perfect summer or even a year - round getaway for everyone. It is concealed on the mountainside of Sierra Madre Mountain Range in the town of Tandang Kutyo, Tanay, Rizal.  Daranak Falls is now becoming popular to locals and tourists because of its accessibility from the Metro Everyone can enjoy the enticing azure cold water of the falls. Rubber tube is available for those non - swimmers who want to relax in the middle of the pool.  Visitors find its pool as perfect for cliff diving, and interested divers will be attended by the local guide for safety. The area is protected by local government and is responsible for maintaining the cleanliness and orderliness of the park. The facility has cottages, souvenir shops and restaurants. Parking lots are available outside the area. Daranak Falls is open daily from 8:00AM – 5:00PM, entrance fee for adult is 20 pesos and 15 pesos for kids. Picnic shed is available for 300 pesos, whereas picnic table is for 150 pesos. Overnight camping is not allowed. All alcoholic beverages are not allowed. ',
+                           'date' => '2014-05-12');
+    }
+        Item::create(array('itenenaryid' => '1',
+                           'locationid' => '9',
+                           'name' => 'insertnamehere',
+                           'review' => '1.2',
+                           'location' => 'Antipolo City, Philippines',
+                           'blog' => ' I am always fascinated by the mysticism of the church the moment I set my feet off to some of the captivating places I have visited in the past.  The church always appeals me because some of them have a historical relevance attached to a place as the church exists for more than hundred years old.  As landmark to every town, the church also serves as a sign that you have gotten the place.  The gritty look of the old church reminds us that we were colonized by Spain and it was of the different orders who brought Christianity to our country.
+                            I had a short trip yesterday and made a visit to St. Joseph Parish church in Baras, Rizal.  Known as Baras church by the locals, the structure was built 300 years ago.  The Franciscan built the original church in 1595.  The dimly-lit cold interior is more interesting as the hall is accented by the large golden altar of the images of saints, and the rough timber beams gave most of the rustic feel of the church.  It is vintage plain and simple, and the look has a strong character that conveys its historical background.There was a graduation event going on at the vicinity of Baras Church and what I had to do is to leave the place as early as I can.  There were vendors outside selling some foods and what caught my attention was the ice scramble as it was very hot due to summer season.Going to Baras Church is easy and you can take jeepneys bound for Tanay, Rizal.  Ask the driver to drop you off to the Municipal Hall and a 5-minute walk uphill to the church.  Travel time depends on where you came from.  From Cainta, Ortigas extension, it’s more or less one and a half travel time if you are taking a jeepney ride.',
+                           'date' => '2014-03-13');
+    }
 }
 
 
