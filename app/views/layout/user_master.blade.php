@@ -9,8 +9,30 @@
 	 	<nav class="navbar navbar-inverse navbar-fixed">
 	        <div class="container-fluid">
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	            	<ul class="nav navbar-nav navbar-right">
-	            		<li ><a href="{{ route('logout') }}">Logout</a></li>  
+	            {{ Form::open(['route' => 'search']) }}
+	            	<ul class="nav navbar-nav navbar-right">		
+            			<!-- <li>{{ Form::submit('Search', array('class' => 'btn btn-block btn-warning')) }}</li>::
+	            		<li>{{ Form::text('search', '', array('placeholder' => 'Search' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}</li>
+	            			{{ Form::close() }} -->
+	            		<li>
+						        <div class="col-md-10 col-md-offset-3">
+						            <form action="" class="search-form">
+						                <div class="form-group has-feedback">																																								
+						            		<label for="search" class="sr-only">Search</label>
+						            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+						              		<span class="glyphicon glyphicon-search form-control-feedback"></span>																																																														
+						            	</div>
+						            </form>
+						        </div>
+						</li>
+				{{ Form::close() }}
+	            		<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">																										
+                            {{ Auth::user()->username . ' ' }}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{{ route('logout') }}">Logout</a></li>
+                            </ul>
+                        </li>
 	            	</ul>
 	                <ul class="nav navbar-nav navbar-left">
 	                	<li class="active"><a href="{{ route('index') }}">WTH2015</a></li>

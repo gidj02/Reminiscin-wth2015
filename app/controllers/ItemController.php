@@ -19,7 +19,9 @@ class ItemController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$filter = Input::get('search');
+		$item = Item::where('blog', 'LIKE', '%'.$filter.'%')->get();
+		return View::make('page/searchresult', compact($item));
 	}
 
 

@@ -32,7 +32,6 @@
 					  			<div class="row">
 									<div class="form-group">
 						              		{{ Form::textarea('description', '',  array('placeholder' => 'Blog' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}
-						              		<br>
 											{{ $errors->first('description') }}
 						            </div>
 					  			</div>
