@@ -13,7 +13,7 @@
 	                	<li ><a href="{{ route('user.create') }}">Register</a></li>
 	                </ul>
 	                 <ul class="nav navbar-nav navbar-right">
-	                 {{ Form::open(['route' => 'search']) }}
+	                 {{ Form::open(['route' => 'user.create']) }}
 	            			
             			<!-- <li>{{ Form::submit('Search', array('class' => 'btn btn-block btn-warning')) }}</li>::
 	            		<li>{{ Form::text('search', '', array('placeholder' => 'Search' , 'class' => 'form-control', 'aria-describedby' => 'basic-addon1')) }}</li>
