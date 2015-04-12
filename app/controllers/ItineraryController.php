@@ -40,25 +40,29 @@ class ItineraryController extends \BaseController {
 	 */
 	public function store()
 	{
-		$validator = Validator::make(Input::all(), Itinerary::$rules);
-		
-		if($validator->fails()){
-			return Redirect::route('itenerary.create')->withInput()->withErrors($validator->messages());
+		$input = Input::all();
+
+		$validation = Validator::make($input,Itinerary::$rules);
+
+		if ($validation->fails())
+		{
+			return Redirect::back()->withInput()->withErrors($validation->messages());
 		}
-		else{
-			$destination = public_path() . '\upload\\';
-			$thumb_name = str_random(6).'_'.$thumb->getClientOriginalName;
-			$uploadSuccess = $this_move($destination,$thumb_name);
-			json_encode($destination.$thumb_name);
-			
-			$itenerary = new Itinerary;
-			$itenerary->name = Input::get('iteneraryname');
-			$itenerary->review = Input::get('description');
-			$itenerary->imgurl = $destination . $thumb_name;
-			$itenerary->userid = $id;
-			$itenerary->save();
-		}
-		return Redirect::route('itenerary.');
+
+		$file = Input::file('fileupload');
+		if($file != NULL){
+			$destinationPath = 'uploads'; // upload path
+			$extension = $file->getClientOriginalExtension(); // getting image extension
+			$fileName = $file->getClientOriginalName(); // renameing image
+			$upload_success = $file->move($destinationPath, $fileName); // uploading file to given path
+
+        if( $upload_success ) {
+        	return 'success';
+        } else {
+        	return 'fail';
+        }
+    	}
+    	else return 'null ';
 	}
 
 

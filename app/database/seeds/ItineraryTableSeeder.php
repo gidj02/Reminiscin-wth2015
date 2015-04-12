@@ -9,7 +9,8 @@ class ItineraryTableSeeder extends Seeder {
 
         Itinerary::create(array('userid' => '1',
         				   'name' => 'Mountain Itinerary',
-        				   'review' => '1.4'));
+        				   'description' => 'favorite Itinerary',
+        				   'imgurl' => '/uploads/Artist Village.jpeg;'));
     }
 
 }

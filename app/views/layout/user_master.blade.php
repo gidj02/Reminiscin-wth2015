@@ -57,5 +57,5 @@
 		{{ HTML::script('js/jquery.min.js') }}
 		{{ HTML::script('js/bootstrap.min.js') }}
 		{{ HTML::script('js/script.js') }}
-		{{ HTML::style('dropzone-4.0.1/dist/min/dropzone.min.js')}}
-		{{ HTML::style('dropzone-4.0.1/dist/min/dropzone-amd-module.min.js')}}
+		{{ HTML::script('dropzone-4.0.1/dist/min/dropzone.min.js')}}
+		{{ HTML::script('dropzone-4.0.1/dist/min/dropzone-amd-module.min.js')}}

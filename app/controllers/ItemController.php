@@ -100,6 +100,4 @@ class ItemController extends \BaseController {
 	{
 		return 'view this item';
 	}
-
-
 }

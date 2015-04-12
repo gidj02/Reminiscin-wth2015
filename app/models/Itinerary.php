@@ -9,7 +9,10 @@ class Itinerary extends Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait;
 
-	
+		public static $rules = ['fileupload' => 'image',
+								'itineraryname' => 'required|min:6',
+								'description' => 'required|min:6',];	
+
 	/**
 	 * The database table used by the model.
 	 *
@@ -17,3 +20,4 @@ class Itinerary extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $table = 'itinerary';
 }
+	

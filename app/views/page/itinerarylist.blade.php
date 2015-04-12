@@ -10,7 +10,9 @@
 	@foreach($itinerary as $value)
 	<div class="col-lg-3 col-md-4 col-xs-6 thumb" id="itenerarylist">
 	    <a class="thumbnail" href="{{ URL::to('item/' . $value->id) }}">
-	        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+	    {{dd($value->imgurl)}}
+
+	        <img class="img-responsive" src="{{ URL::to('/'). $value->imgurl }}" alt="">
 	    </a>
 	</div>
 	@endforeach

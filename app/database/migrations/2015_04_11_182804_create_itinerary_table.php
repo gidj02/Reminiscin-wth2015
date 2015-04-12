@@ -17,7 +17,7 @@ class CreateItineraryTable extends Migration {
 			$table->increments('id');
 			$table->integer('userid');
 			$table->string('name');
-			$table->float('review');
+			$table->string('description');
 			$table->string('imgurl');
 			$table->timestamps();
 		});
