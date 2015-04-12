@@ -1,3 +1,4 @@
+<!DOCTYPE>
 <html>
 	<head>
 		<title> WTH2015 </title>

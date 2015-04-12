@@ -1,3 +1,4 @@
+<!DOCTYPE>
 <html>
 	<head>
 		<title> User Page </title>
@@ -46,4 +47,5 @@
 		{{ HTML::script('js/jquery.min.js') }}
 		{{ HTML::script('js/bootstrap.min.js') }}
 		{{ HTML::script('js/script.js') }}
+		{{ HTML::script('js/dropzone.js') }}
 
