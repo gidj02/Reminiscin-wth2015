@@ -23,7 +23,7 @@
 	            </div>
 	            <div class="timeline-body">
 
-	              <p>{{ $value->blog }}</p>
+	              <p>{{ Str::limit($value->blog, $limit = 255) }}</p>
 
 	            </div>
 
@@ -45,7 +45,7 @@
 
 	            </div>
 	            <div class="timeline-body">
-	              <p>{{ $value->blog }}</p>
+	              <p>{{ Str::limit($value->blog, $limit = 255) }}</p>
 
 	            </div>
 

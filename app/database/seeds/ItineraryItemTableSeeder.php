@@ -8,9 +8,9 @@ class ItineraryItemTableSeeder extends Seeder {
         DB::table('item')->delete();
 
         Item::create(array('itineraryid' => '1',
-				           'name' => 'insertnamehere',
+				           'name' => 'Artist Village',
                            'imgurl' => 'img/item/item.jpg',
-                           'location' => 'Montalban, Rizal, Philippines',
+                           'location' => 'Angono, Rizal, Philippines',
                            'blog' => '
                             Angono is home to many of the country?s great artists
                             Angono, Rizal is a quiet little town an hour away from Manila. It seems like an ordinary town with a plaza and busy market, but nothing is ordinary about Angono. It is home to many of the country?s finest artists. Maybe it?s the rugged and hilly landscapes or sleepy fishing villages that inspired these painters. But why is Marikina popular for shoes and Bulacan for sweets? Maybe it?s just the way it is. It seemed that when God was showering artistic talent in the country, a lot of it went to the artists of Angono
@@ -110,6 +110,7 @@ class ItineraryItemTableSeeder extends Seeder {
 
         Item::create(array('itineraryid' => '1',
                            'name' => 'Forest Park',
+                           'imgurl' => 'img/item/item.jpg',
                            'location' => 'Angono, Rizal, Philippines',
                            'blog' => '
                             When I alighted the tricycle, I was worried that the Forest Park might be closed because the old lady that I met at the entrance told me that there was a council meeting. She also asked if I was there for a photo shoot and I replied that I was just touring around. I also asked if there was an entrance fee as it was stated on the sign outside but she told me there was no need for me to pay.It was such a treat for me to talk to the old lady (I didn’t get her name) because she told me a little about the park and that there were steps at the back. She also told me how many steps there were and according to the kids who play there, it’s 77 steps.When I got to the end of the steps, it took me to a road. It was so quiet up there. The old lady mentioned to me that there was a retreat house at the end of the road. But I didn’t go that far for fear that I’d get even more lost. So while the retreat house was up, I went down the road to go back to the entrance of the park. I went back in and had a little chat again with the old lady and walked around for a bit before leaving. I went home feeling really good about myself because I gained a bit of confidence while asking for directions. I took the tricycle back to the plaza for P10 and waited for an FX by the main road. Good thing I asked the FX driver earlier that day on where to wait unless I would’ve been lost. I spent a total of P342 going there and home. Not bad. The people were so accommodating and I’m glad that nothing bad happened to me. Next adventure, I’m dragging someone along.
@@ -118,7 +119,7 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2014-02-10'));
 
         Item::create(array('itineraryid' => '1',
-                           'name' => 'insertnamehere',
+                           'name' => 'Hamaka Park',
                            'imgurl' => 'img/item/item.jpg',
                            'location' => 'Antipolo City, Philippines',
                            'blog' => '

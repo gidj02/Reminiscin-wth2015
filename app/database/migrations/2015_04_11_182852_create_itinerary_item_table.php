@@ -18,7 +18,7 @@ class CreateItineraryItemTable extends Migration {
 			$table->integer('itineraryid');
 			$table->string('name');
 			$table->string('location');
-			$table->string('blog');
+			$table->text('blog');
 			$table->string('imgurl');
 			$table->date('date');
 			$table->timestamps();

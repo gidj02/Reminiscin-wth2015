@@ -130,6 +130,7 @@ class ItemController extends \BaseController {
 
 	public function viewItem($id)
 	{
-		return View::make('page/item');
+		$item = Item::find($id);
+		return View::make('page/itemview', compact('item'));
 	}
 }
