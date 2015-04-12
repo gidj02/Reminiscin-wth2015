@@ -8,7 +8,6 @@ class ItineraryItemTableSeeder extends Seeder {
         DB::table('item')->delete();
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '1',
         				           'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Montalban, Rizal, Philippines',
@@ -110,7 +109,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2005-07-14'));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '2',
                            'name' => 'Forest Park',
                            'review' => '1.2',
                            'location' => 'Angono, Rizal, Philippines',
@@ -121,7 +119,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2014-02-10'));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '3',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
@@ -130,7 +127,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => ' 2012-03-22'));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '4',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Montalban, Rizal, Philippines',
@@ -161,7 +157,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2010-05-22  '));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '5',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
@@ -173,7 +168,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2009-07-02'));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '6',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
@@ -192,7 +186,6 @@ class ItineraryItemTableSeeder extends Seeder {
     
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '7',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
@@ -204,7 +197,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2014-04-02'));
 
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '8',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
@@ -212,7 +204,6 @@ class ItineraryItemTableSeeder extends Seeder {
                            'date' => '2014-05-12'));
     
         Item::create(array('itineraryid' => '1',
-                           'locationid' => '9',
                            'name' => 'insertnamehere',
                            'review' => '1.2',
                            'location' => 'Antipolo City, Philippines',
