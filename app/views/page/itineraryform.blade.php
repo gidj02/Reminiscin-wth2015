@@ -12,8 +12,11 @@
 		                <div class="row">
 		                	<!-- Image for Itinerary -->
 		                    <div class="col-sm-6 col-md-4">
-		                        <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
-		                        {{ Form::file('upload', array('id' => 'btnupload')) }}
+		                        <!-- <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" /> -->
+		                        <!-- {{ Form::file('upload', array('id' => 'btnupload', 'class' => 'form-control btn btn-warning dropzone')) }} -->
+		                        <form action="{{ url('user/upload')}}" class="dropzone" id="my-awesome-dropzone">
+		                        	<input type="file" class="file" name="upload">
+		                        </form>
 		                    </div>
 		                    <!-- End Image for Itinerary -->
 		                    <div class="col-sm-6 col-md-8">
@@ -46,7 +49,7 @@
 					            <br>
 					            <br>
 					            <!-- Save button -->
-					            {{ Form::submit('Save', array('id' => 'btnsave', class' => 'btn btn-block btn-warning')) }}
+					            {{ Form::submit('Save', array('id' => 'btnsave', 'class' => 'btn btn-block btn-warning')) }}
 	                            <!-- End of Save button -->
 								</div>
 		                    </div>
@@ -57,5 +60,7 @@
 			{{ Form::close() }}
 		</div>
 	</div>
-	<script></script>
+	<script>
+
+	</script>
 @stop
